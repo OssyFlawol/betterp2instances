@@ -1,0 +1,149 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/a4_destruction/wallpanel_256_adest.mdl"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "wallPanel_256_a"
+	"origin" "128 0 -128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -8768]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "crumble_relayTrigger0-1"
+	}
+	"origin" "16 -8 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "for use behind wheatley map walls for idle destruction"
+		"logicalpos" "[2500 -8268]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "crumble_relay"
+	connections
+	{
+		"OnTrigger" "crumble_logic_casePickRandomShuffle0.2-1"
+		"OnTrigger" "crumble_relayDisable0.2-1"
+		"OnTrigger" "crumble_relayEnable12-1"
+		"OnTrigger" "wallPanel_256_aDisable0-1"
+		"OnTrigger" "wallPanel_256_aSetAnimationidle0.1-1"
+		"OnTrigger" "wallPanel_256_aEnable0.2-1"
+	}
+	"origin" "-16 -8 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -7768]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "logic_case"
+	"angles" "0 0 0"
+	"targetname" "crumble_logic_case"
+	connections
+	{
+		"OnCase06" "wallPanel_256_aSetAnimationanim60-1"
+		"OnCase05" "wallPanel_256_aSetAnimationanim50-1"
+		"OnCase04" "wallPanel_256_aSetAnimationanim40-1"
+		"OnCase03" "wallPanel_256_aSetAnimationanim30-1"
+		"OnCase02" "wallPanel_256_aSetAnimationanim20-1"
+		"OnCase01" "wallPanel_256_aSetAnimationanim10-1"
+	}
+	"origin" "0 -8 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -7268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

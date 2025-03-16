@@ -1,0 +1,357 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "7"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "7"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	solid
+	{
+		"id" "81"
+		side
+		{
+			"id" "157"
+			"plane" "(-32 32 0) (32 32 0) (32 -32 0)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "158"
+			"plane" "(-32 -32 -32) (32 -32 -32) (32 32 -32)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "159"
+			"plane" "(-32 32 0) (-32 -32 0) (-32 -32 -32)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "160"
+			"plane" "(32 32 -32) (32 -32 -32) (32 -32 0)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "161"
+			"plane" "(32 32 0) (-32 32 0) (-32 32 -32)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "162"
+			"plane" "(32 -32 -32) (-32 -32 -32) (-32 -32 0)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 135 236"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "19"
+	"classname" "npc_portal_turret_floor"
+	"_frustum_color" "255 0 0"
+	"angles" "0 270 0"
+	"DamageForce" "0"
+	"model" "models/npcs/turret/turret.mdl"
+	"PickupEnabled" "1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"ShootAtMovingObjects" "1"
+	"SkinNumber" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "sealin_turret_2"
+	"TurretRange" "1024"
+	"origin" "-0.00646973 5.99878 249.5"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4268]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props/pincher_cable.mdl"
+	"parentname" "sealin_claw_door_2"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "sealin_claw_2"
+	"origin" "-0.00842285 -0.00439453 353.5"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14500]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "func_door"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "-248"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "90 0 0"
+	"origin" "0 0.01 355.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "5120"
+	"spawnpos" "0"
+	"speed" "100"
+	"targetname" "sealin_claw_door_2"
+	"unlocked_sentence" "0"
+	"wait" "0.75"
+	connections
+	{
+		"OnFullyClosed" "!selfKill0-1"
+	}
+	solid
+	{
+		"id" "30"
+		side
+		{
+			"id" "156"
+			"plane" "(2 2.00537 353.5) (-2 1.99463 353.5) (-2.00293 -1.99658 353.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -39.0132] 0.25"
+			"vaxis" "[0 -1 0 3.91602] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "155"
+			"plane" "(1.99426 -1.99658 357.5) (-2.00403 -1.99854 357.5) (-2.00122 1.99878 357.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -39.0132] 0.25"
+			"vaxis" "[0 -1 0 3.91602] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "154"
+			"plane" "(-2 2 353.502) (1.99792 2.01074 353.502) (1.99524 2.0127 357.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -39.0132] 0.25"
+			"vaxis" "[0 0 -1 14] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "153"
+			"plane" "(1.99524 -1.99487 353.5) (-2.00293 -1.99683 353.5) (-2.00415 -1.99805 357.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -39.0132] 0.25"
+			"vaxis" "[0 0 -1 14] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "152"
+			"plane" "(1.99622 2.0144 353.5) (1.99316 -1.99365 353.5) (1.99353 -1.9939 357.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 0 1 -14] 0.25"
+			"vaxis" "[0 -1 0 3.91602] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "151"
+			"plane" "(-2.00391 -2 353.5) (-2.00012 1.99878 353.5) (-2.00159 2.00415 357.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 0 1 -14] 0.25"
+			"vaxis" "[0 -1 0 3.91602] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "phys_constraint"
+	"angles" "0 180 0"
+	"attach1" "sealin_turret_2"
+	"attach2" "sealin_claw_door_2"
+	"forcelimit" "0"
+	"spawnflags" "0"
+	"targetname" "sealin_constraint_2"
+	"teleportfollowdistance" "0"
+	"torquelimit" "0"
+	"origin" "-0.00842285 -0.00439453 305.5"
+	editor
+	{
+		"color" "128 128 128"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -5768]"
+	}
+}
+entity
+{
+	"id" "46"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "sealin_claw_rl"
+	connections
+	{
+		"OnTrigger" "sealin_constraint_2Break2.7-1"
+		"OnTrigger" "sealin_claw_door_2Open0-1"
+	}
+	"origin" "-24 -24 296"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "764"
+	"classname" "func_instance_io_proxy"
+	"targetname" "place_turret"
+	connections
+	{
+		"OnProxyRelay" "sealin_claw_rlTrigger0-1"
+	}
+	"origin" "-8 -24 296"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
