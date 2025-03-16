@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "9672"
-	"mapversion" "4"
+	"editorbuild" "8869"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,19 +14,88 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
-	"bShow3DGrid" "0"
+	"nGridSpacing" "4"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "1"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
+}
+bgimages_plus
+{
 }
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "6"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
 }
 entity
 {
@@ -75,6 +144,13 @@ entity
 		{
 			"id" "7"
 			"plane" "(64 0 0.0898438) (64 0 -1.90625) (0 0 -1.91016)"
+			vertices_plus
+			{
+				"v" "64 0 0.09"
+				"v" "64 0 -1.90805"
+				"v" "0 0 -1.91195"
+				"v" "0 0 0.09"
+			}
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
 			"uaxis" "[0 0 1 56] 0.25"
 			"vaxis" "[-1 0 0 -128] 0.25"
@@ -86,6 +162,13 @@ entity
 		{
 			"id" "8"
 			"plane" "(0 64 0.0898438) (0 64 -1.90625) (64 64 -1.91016)"
+			vertices_plus
+			{
+				"v" "0 64 0.09"
+				"v" "0 64 -1.90805"
+				"v" "64 64 -1.91195"
+				"v" "64 64 0.09"
+			}
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
 			"uaxis" "[0 0 1 56] 0.25"
 			"vaxis" "[-1 0 0 -128] 0.25"
@@ -97,6 +180,13 @@ entity
 		{
 			"id" "9"
 			"plane" "(64 64 0.0898438) (64 64 -1.90625) (64 0 -1.91016)"
+			vertices_plus
+			{
+				"v" "64 64 0.09"
+				"v" "64 64 -1.90805"
+				"v" "64 0 -1.91195"
+				"v" "64 0 0.09"
+			}
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
 			"uaxis" "[0 0 1 56] 0.25"
 			"vaxis" "[0 1 0 256] 0.25"
@@ -108,6 +198,13 @@ entity
 		{
 			"id" "10"
 			"plane" "(0 0 0.0898438) (0 0 -1.90625) (0 64 -1.91016)"
+			vertices_plus
+			{
+				"v" "0 0 0.09"
+				"v" "0 0 -1.90805"
+				"v" "0 64 -1.91195"
+				"v" "0 64 0.09"
+			}
 			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
 			"uaxis" "[0 0 1 56] 0.25"
 			"vaxis" "[0 1 0 256] 0.25"
@@ -119,6 +216,13 @@ entity
 		{
 			"id" "11"
 			"plane" "(64 64 -1.91) (0 64 -1.91) (0 0 -1.91)"
+			vertices_plus
+			{
+				"v" "64 64 -1.91"
+				"v" "0 64 -1.91"
+				"v" "0 0 -1.91"
+				"v" "64 0 -1.91"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[-1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 256] 0.25"
@@ -130,6 +234,13 @@ entity
 		{
 			"id" "12"
 			"plane" "(64 0 0.09) (0 0 0.09) (0 64 0.09)"
+			vertices_plus
+			{
+				"v" "64 0 0.09"
+				"v" "0 0 0.09"
+				"v" "0 64 0.09"
+				"v" "64 64 0.09"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[0 1 0 -128] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
@@ -177,12 +288,11 @@ entity
 {
 	"id" "166"
 	"classname" "func_instance_io_proxy"
-	"angles" "0 0 0"
 	"targetname" "proxy"
 	connections
 	{
-		"OnProxyRelay1" "floor_panel_upTrigger0-1"
-		"OnProxyRelay2" "floor_panel_downTrigger0-1"
+		"OnProxyRelay" "floor_panel_upTrigger0-1"
+		"OnProxyRelay" "floor_panel_downTrigger0-1"
 	}
 	"origin" "52 32 -56"
 	editor
@@ -236,6 +346,27 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -10268]"
+	}
+}
+entity
+{
+	"id" "181"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "floor_panel_down"
+	connections
+	{
+		"OnTrigger" "floor_panel_01_propSetAnimation64_in_straight0-1"
+		"OnTrigger" "floor_panel_01_propSetDefaultAnimationBindPose0.1-1"
+	}
+	"origin" "52 16 -56"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -8768]"
 	}
 }
 cameras

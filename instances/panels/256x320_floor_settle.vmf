@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "9672"
-	"mapversion" "5"
+	"editorbuild" "8869"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,18 +15,87 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "8"
-	"bShow3DGrid" "0"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "1"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
+}
+bgimages_plus
+{
 }
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "6"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
 }
 entity
 {
@@ -62,6 +131,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_17"
 	"origin" "-128 128 160"
 	editor
@@ -100,6 +170,13 @@ entity
 		{
 			"id" "139"
 			"plane" "(160 128 0) (160 128 -2) (160 64 -2)"
+			vertices_plus
+			{
+				"v" "160 128 0"
+				"v" "160 128 -2"
+				"v" "160 64 -2"
+				"v" "160 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -111,6 +188,13 @@ entity
 		{
 			"id" "138"
 			"plane" "(160 64 0) (160 64 -2) (96 64 -2)"
+			vertices_plus
+			{
+				"v" "160 64 0"
+				"v" "160 64 -2"
+				"v" "96 64 -2"
+				"v" "96 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -122,6 +206,13 @@ entity
 		{
 			"id" "137"
 			"plane" "(96 128 -2) (160 128 -2) (160 128 0)"
+			vertices_plus
+			{
+				"v" "96 128 -2"
+				"v" "160 128 -2"
+				"v" "160 128 0"
+				"v" "96 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -133,6 +224,13 @@ entity
 		{
 			"id" "136"
 			"plane" "(96 64 -2) (160 64 -2) (160 128 -2)"
+			vertices_plus
+			{
+				"v" "96 64 -2"
+				"v" "160 64 -2"
+				"v" "160 128 -2"
+				"v" "96 128 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -144,6 +242,13 @@ entity
 		{
 			"id" "135"
 			"plane" "(96 128 0) (160 128 0) (160 64 0)"
+			vertices_plus
+			{
+				"v" "96 128 0"
+				"v" "160 128 0"
+				"v" "160 64 0"
+				"v" "96 64 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -155,6 +260,13 @@ entity
 		{
 			"id" "134"
 			"plane" "(96 64 0) (96 64 -2) (96 128 -2)"
+			vertices_plus
+			{
+				"v" "96 64 0"
+				"v" "96 64 -2"
+				"v" "96 128 -2"
+				"v" "96 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -205,6 +317,13 @@ entity
 		{
 			"id" "145"
 			"plane" "(96 -64 0) (96 -64 -2) (96 0 -2)"
+			vertices_plus
+			{
+				"v" "96 -64 0"
+				"v" "96 -64 -2"
+				"v" "96 0 -2"
+				"v" "96 0 0"
+			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002C"
 			"uaxis" "[0 -1 0 768] 0.25"
 			"vaxis" "[0 0 1 512] 0.25"
@@ -216,6 +335,13 @@ entity
 		{
 			"id" "144"
 			"plane" "(160 0 0) (160 0 -2) (160 -64 -2)"
+			vertices_plus
+			{
+				"v" "160 0 0"
+				"v" "160 0 -2"
+				"v" "160 -64 -2"
+				"v" "160 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -227,6 +353,13 @@ entity
 		{
 			"id" "143"
 			"plane" "(160 -64 0) (160 -64 -2) (96 -64 -2)"
+			vertices_plus
+			{
+				"v" "160 -64 0"
+				"v" "160 -64 -2"
+				"v" "96 -64 -2"
+				"v" "96 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -238,6 +371,13 @@ entity
 		{
 			"id" "142"
 			"plane" "(96 0 0) (96 0 -2) (160 0 -2)"
+			vertices_plus
+			{
+				"v" "96 0 0"
+				"v" "96 0 -2"
+				"v" "160 0 -2"
+				"v" "160 0 0"
+			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002C"
 			"uaxis" "[1 0 0 -512] 0.25"
 			"vaxis" "[0 0 1 512] 0.25"
@@ -249,6 +389,13 @@ entity
 		{
 			"id" "141"
 			"plane" "(96 0 -2) (96 -64 -2) (160 -64 -2)"
+			vertices_plus
+			{
+				"v" "96 0 -2"
+				"v" "96 -64 -2"
+				"v" "160 -64 -2"
+				"v" "160 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -260,6 +407,13 @@ entity
 		{
 			"id" "140"
 			"plane" "(96 -64 0) (96 0 0) (160 0 0)"
+			vertices_plus
+			{
+				"v" "96 -64 0"
+				"v" "96 0 0"
+				"v" "160 0 0"
+				"v" "160 -64 0"
+			}
 			"material" "NATURE/DIRTFLOOR004C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -316,6 +470,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_18"
 	"origin" "-128 128 160"
 	editor
@@ -354,6 +509,13 @@ entity
 		{
 			"id" "151"
 			"plane" "(96 0 0) (96 64 0) (160 64 0)"
+			vertices_plus
+			{
+				"v" "96 -0 0"
+				"v" "96 64 0"
+				"v" "160 64 0"
+				"v" "160 0 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -365,6 +527,13 @@ entity
 		{
 			"id" "150"
 			"plane" "(96 64 -2) (96 64 0) (96 0 0)"
+			vertices_plus
+			{
+				"v" "96 64 -2"
+				"v" "96 64 0"
+				"v" "96 0 0"
+				"v" "96 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -376,6 +545,13 @@ entity
 		{
 			"id" "149"
 			"plane" "(160 0 -2) (160 0 0) (160 64 0)"
+			vertices_plus
+			{
+				"v" "160 -0 -2"
+				"v" "160 -0 -0"
+				"v" "160 64 0"
+				"v" "160 64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -387,6 +563,13 @@ entity
 		{
 			"id" "148"
 			"plane" "(96 0 -2) (96 0 0) (160 0 0)"
+			vertices_plus
+			{
+				"v" "96 0 -2"
+				"v" "96 0 -0"
+				"v" "160 0 0"
+				"v" "160 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -398,6 +581,13 @@ entity
 		{
 			"id" "147"
 			"plane" "(160 64 -2) (160 64 0) (96 64 0)"
+			vertices_plus
+			{
+				"v" "160 64 -2"
+				"v" "160 64 0"
+				"v" "96 64 0"
+				"v" "96 64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -409,6 +599,13 @@ entity
 		{
 			"id" "146"
 			"plane" "(96 64 -2) (96 0 -2) (160 0 -2)"
+			vertices_plus
+			{
+				"v" "96 64 -2"
+				"v" "96 0 -2"
+				"v" "160 -0 -2"
+				"v" "160 64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -465,6 +662,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_16"
 	"origin" "-128 128 160"
 	editor
@@ -503,6 +701,13 @@ entity
 		{
 			"id" "157"
 			"plane" "(32 -128 0) (32 -128 -2) (32 -64 -2)"
+			vertices_plus
+			{
+				"v" "32 -128 0"
+				"v" "32 -128 -2"
+				"v" "32 -64 -2"
+				"v" "32 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -514,6 +719,13 @@ entity
 		{
 			"id" "156"
 			"plane" "(96 -64 0) (96 -64 -2) (96 -128 -2)"
+			vertices_plus
+			{
+				"v" "96 -64 0"
+				"v" "96 -64 -2"
+				"v" "96 -128 -2"
+				"v" "96 -128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -525,6 +737,13 @@ entity
 		{
 			"id" "155"
 			"plane" "(96 -128 0) (96 -128 -2) (32 -128 -2)"
+			vertices_plus
+			{
+				"v" "96 -128 0"
+				"v" "96 -128 -2"
+				"v" "32 -128 -2"
+				"v" "32 -128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -536,6 +755,13 @@ entity
 		{
 			"id" "154"
 			"plane" "(32 -64 0) (32 -64 -2) (96 -64 -2)"
+			vertices_plus
+			{
+				"v" "32 -64 0"
+				"v" "32 -64 -2"
+				"v" "96 -64 -2"
+				"v" "96 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -547,6 +773,13 @@ entity
 		{
 			"id" "153"
 			"plane" "(32 -64 -2) (32 -128 -2) (96 -128 -2)"
+			vertices_plus
+			{
+				"v" "32 -64 -2"
+				"v" "32 -128 -2"
+				"v" "96 -128 -2"
+				"v" "96 -64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -558,6 +791,13 @@ entity
 		{
 			"id" "152"
 			"plane" "(32 -128 0) (32 -64 0) (96 -64 0)"
+			vertices_plus
+			{
+				"v" "32 -128 0"
+				"v" "32 -64 0"
+				"v" "96 -64 0"
+				"v" "96 -128 0"
+			}
 			"material" "NATURE/DIRTFLOOR004C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -614,6 +854,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_15"
 	"origin" "-128 128 160"
 	editor
@@ -658,6 +899,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_01"
 	"origin" "-128 128 160"
 	editor
@@ -696,6 +938,13 @@ entity
 		{
 			"id" "163"
 			"plane" "(-160 64 0) (-160 64 -2) (-160 128 -2)"
+			vertices_plus
+			{
+				"v" "-160 64 0"
+				"v" "-160 64 -2"
+				"v" "-160 128 -2"
+				"v" "-160 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -707,6 +956,13 @@ entity
 		{
 			"id" "162"
 			"plane" "(-96 128 0) (-96 128 -2) (-96 64 -2)"
+			vertices_plus
+			{
+				"v" "-96 128 0"
+				"v" "-96 128 -2"
+				"v" "-96 64 -2"
+				"v" "-96 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -718,6 +974,13 @@ entity
 		{
 			"id" "161"
 			"plane" "(-96 64 0) (-96 64 -2) (-160 64 -2)"
+			vertices_plus
+			{
+				"v" "-96 64 0"
+				"v" "-96 64 -2"
+				"v" "-160 64 -2"
+				"v" "-160 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -729,6 +992,13 @@ entity
 		{
 			"id" "160"
 			"plane" "(-160 128 0) (-160 128 -2) (-96 128 -2)"
+			vertices_plus
+			{
+				"v" "-160 128 0"
+				"v" "-160 128 -2"
+				"v" "-96 128 -2"
+				"v" "-96 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -740,6 +1010,13 @@ entity
 		{
 			"id" "159"
 			"plane" "(-160 128 -2) (-160 64 -2) (-96 64 -2)"
+			vertices_plus
+			{
+				"v" "-160 128 -2"
+				"v" "-160 64 -2"
+				"v" "-96 64 -2"
+				"v" "-96 128 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -751,6 +1028,13 @@ entity
 		{
 			"id" "158"
 			"plane" "(-160 64 0) (-160 128 0) (-96 128 0)"
+			vertices_plus
+			{
+				"v" "-160 64 0"
+				"v" "-160 128 0"
+				"v" "-96 128 0"
+				"v" "-96 64 0"
+			}
 			"material" "NATURE/DIRTFLOOR004C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -801,6 +1085,13 @@ entity
 		{
 			"id" "169"
 			"plane" "(-160 64 -2) (-96 64 -2) (-96 64 0)"
+			vertices_plus
+			{
+				"v" "-160 64 -2"
+				"v" "-96 64 -2"
+				"v" "-96 64 0"
+				"v" "-160 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -812,6 +1103,13 @@ entity
 		{
 			"id" "168"
 			"plane" "(-96 64 -2) (-160 64 -2) (-160 0 -2)"
+			vertices_plus
+			{
+				"v" "-96 64 -2"
+				"v" "-160 64 -2"
+				"v" "-160 0 -2"
+				"v" "-96 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -823,6 +1121,13 @@ entity
 		{
 			"id" "167"
 			"plane" "(-160 0 0) (-160 64 0) (-96 64 0)"
+			vertices_plus
+			{
+				"v" "-160 0 0"
+				"v" "-160 64 0"
+				"v" "-96 64 0"
+				"v" "-96 0 0"
+			}
 			"material" "NATURE/DIRTFLOOR004C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -834,6 +1139,13 @@ entity
 		{
 			"id" "166"
 			"plane" "(-160 0 -2) (-160 64 -2) (-160 64 0)"
+			vertices_plus
+			{
+				"v" "-160 0 -2"
+				"v" "-160 64 -2"
+				"v" "-160 64 0"
+				"v" "-160 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -845,6 +1157,13 @@ entity
 		{
 			"id" "165"
 			"plane" "(-96 64 0) (-96 64 -2) (-96 0 -2)"
+			vertices_plus
+			{
+				"v" "-96 64 0"
+				"v" "-96 64 -2"
+				"v" "-96 0 -2"
+				"v" "-96 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -856,6 +1175,13 @@ entity
 		{
 			"id" "164"
 			"plane" "(-96 0 -2) (-160 0 -2) (-160 0 0)"
+			vertices_plus
+			{
+				"v" "-96 0 -2"
+				"v" "-160 0 -2"
+				"v" "-160 0 0"
+				"v" "-96 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -912,6 +1238,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_02"
 	"origin" "-128 128 160"
 	editor
@@ -950,6 +1277,13 @@ entity
 		{
 			"id" "175"
 			"plane" "(-160 -64 0) (-160 -64 -2) (-160 0 -2)"
+			vertices_plus
+			{
+				"v" "-160 -64 0"
+				"v" "-160 -64 -2"
+				"v" "-160 0 -2"
+				"v" "-160 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -961,6 +1295,13 @@ entity
 		{
 			"id" "174"
 			"plane" "(-96 0 0) (-96 0 -2) (-96 -64 -2)"
+			vertices_plus
+			{
+				"v" "-96 0 0"
+				"v" "-96 0 -2"
+				"v" "-96 -64 -2"
+				"v" "-96 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -972,6 +1313,13 @@ entity
 		{
 			"id" "173"
 			"plane" "(-96 -64 0) (-96 -64 -2) (-160 -64 -2)"
+			vertices_plus
+			{
+				"v" "-96 -64 0"
+				"v" "-96 -64 -2"
+				"v" "-160 -64 -2"
+				"v" "-160 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -983,6 +1331,13 @@ entity
 		{
 			"id" "172"
 			"plane" "(-160 0 0) (-160 0 -2) (-96 0 -2)"
+			vertices_plus
+			{
+				"v" "-160 0 0"
+				"v" "-160 0 -2"
+				"v" "-96 0 -2"
+				"v" "-96 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -994,6 +1349,13 @@ entity
 		{
 			"id" "171"
 			"plane" "(-160 0 -2) (-160 -64 -2) (-96 -64 -2)"
+			vertices_plus
+			{
+				"v" "-160 0 -2"
+				"v" "-160 -64 -2"
+				"v" "-96 -64 -2"
+				"v" "-96 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -1005,6 +1367,13 @@ entity
 		{
 			"id" "170"
 			"plane" "(-160 -64 0) (-160 0 0) (-96 0 0)"
+			vertices_plus
+			{
+				"v" "-160 -64 0"
+				"v" "-160 0 0"
+				"v" "-96 0 0"
+				"v" "-96 -64 0"
+			}
 			"material" "NATURE/DIRTFLOOR004C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -1061,6 +1430,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_03"
 	"origin" "-128 128 160"
 	editor
@@ -1099,6 +1469,13 @@ entity
 		{
 			"id" "181"
 			"plane" "(-160 -128 0) (-160 -128 -2) (-160 -64 -2)"
+			vertices_plus
+			{
+				"v" "-160 -128 0"
+				"v" "-160 -128 -2"
+				"v" "-160 -64 -2"
+				"v" "-160 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1110,6 +1487,13 @@ entity
 		{
 			"id" "180"
 			"plane" "(-96 -64 0) (-96 -64 -2) (-96 -128 -2)"
+			vertices_plus
+			{
+				"v" "-96 -64 0"
+				"v" "-96 -64 -2"
+				"v" "-96 -128 -2"
+				"v" "-96 -128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1121,6 +1505,13 @@ entity
 		{
 			"id" "179"
 			"plane" "(-96 -128 0) (-96 -128 -2) (-160 -128 -2)"
+			vertices_plus
+			{
+				"v" "-96 -128 0"
+				"v" "-96 -128 -2"
+				"v" "-160 -128 -2"
+				"v" "-160 -128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1132,6 +1523,13 @@ entity
 		{
 			"id" "178"
 			"plane" "(-160 -64 0) (-160 -64 -2) (-96 -64 -2)"
+			vertices_plus
+			{
+				"v" "-160 -64 0"
+				"v" "-160 -64 -2"
+				"v" "-96 -64 -2"
+				"v" "-96 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1143,6 +1541,13 @@ entity
 		{
 			"id" "177"
 			"plane" "(-160 -64 -2) (-160 -128 -2) (-96 -128 -2)"
+			vertices_plus
+			{
+				"v" "-160 -64 -2"
+				"v" "-160 -128 -2"
+				"v" "-96 -128 -2"
+				"v" "-96 -64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -1154,6 +1559,13 @@ entity
 		{
 			"id" "176"
 			"plane" "(-160 -128 0) (-160 -64 0) (-96 -64 0)"
+			vertices_plus
+			{
+				"v" "-160 -128 0"
+				"v" "-160 -64 0"
+				"v" "-96 -64 0"
+				"v" "-96 -128 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -1210,6 +1622,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_04"
 	"origin" "-128 128 160"
 	editor
@@ -1248,6 +1661,13 @@ entity
 		{
 			"id" "187"
 			"plane" "(-32 128 0) (-32 128 -2) (-32 64 -2)"
+			vertices_plus
+			{
+				"v" "-32 128 0"
+				"v" "-32 128 -2"
+				"v" "-32 64 -2"
+				"v" "-32 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1259,6 +1679,13 @@ entity
 		{
 			"id" "186"
 			"plane" "(-32 64 0) (-32 64 -2) (-96 64 -2)"
+			vertices_plus
+			{
+				"v" "-32 64 0"
+				"v" "-32 64 -2"
+				"v" "-96 64 -2"
+				"v" "-96 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1270,6 +1697,13 @@ entity
 		{
 			"id" "185"
 			"plane" "(-96 128 -2) (-32 128 -2) (-32 128 0)"
+			vertices_plus
+			{
+				"v" "-96 128 -2"
+				"v" "-32 128 -2"
+				"v" "-32 128 0"
+				"v" "-96 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1281,6 +1715,13 @@ entity
 		{
 			"id" "184"
 			"plane" "(-96 64 -2) (-32 64 -2) (-32 128 -2)"
+			vertices_plus
+			{
+				"v" "-96 64 -2"
+				"v" "-32 64 -2"
+				"v" "-32 128 -2"
+				"v" "-96 128 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -1292,6 +1733,13 @@ entity
 		{
 			"id" "183"
 			"plane" "(-96 128 0) (-32 128 0) (-32 64 0)"
+			vertices_plus
+			{
+				"v" "-96 128 0"
+				"v" "-32 128 0"
+				"v" "-32 64 0"
+				"v" "-96 64 0"
+			}
 			"material" "NATURE/DIRTFLOOR004C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -1303,6 +1751,13 @@ entity
 		{
 			"id" "182"
 			"plane" "(-96 64 0) (-96 64 -2) (-96 128 -2)"
+			vertices_plus
+			{
+				"v" "-96 64 0"
+				"v" "-96 64 -2"
+				"v" "-96 128 -2"
+				"v" "-96 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1359,6 +1814,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_05"
 	"origin" "-128 128 160"
 	editor
@@ -1397,6 +1853,13 @@ entity
 		{
 			"id" "193"
 			"plane" "(-96 0 0) (-96 0 -2) (-96 64 -2)"
+			vertices_plus
+			{
+				"v" "-96 0 0"
+				"v" "-96 0 -2"
+				"v" "-96 64 -2"
+				"v" "-96 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1408,6 +1871,13 @@ entity
 		{
 			"id" "192"
 			"plane" "(-32 64 0) (-32 64 -2) (-32 0 -2)"
+			vertices_plus
+			{
+				"v" "-32 64 0"
+				"v" "-32 64 -2"
+				"v" "-32 0 -2"
+				"v" "-32 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1419,6 +1889,13 @@ entity
 		{
 			"id" "191"
 			"plane" "(-32 0 0) (-32 0 -2) (-96 0 -2)"
+			vertices_plus
+			{
+				"v" "-32 0 0"
+				"v" "-32 0 -2"
+				"v" "-96 0 -2"
+				"v" "-96 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1430,6 +1907,13 @@ entity
 		{
 			"id" "190"
 			"plane" "(-96 64 0) (-96 64 -2) (-32 64 -2)"
+			vertices_plus
+			{
+				"v" "-96 64 0"
+				"v" "-96 64 -2"
+				"v" "-32 64 -2"
+				"v" "-32 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1441,6 +1925,13 @@ entity
 		{
 			"id" "189"
 			"plane" "(-96 64 -2) (-96 0 -2) (-32 0 -2)"
+			vertices_plus
+			{
+				"v" "-96 64 -2"
+				"v" "-96 0 -2"
+				"v" "-32 -0 -2"
+				"v" "-32 64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -1452,6 +1943,13 @@ entity
 		{
 			"id" "188"
 			"plane" "(-96 0 0) (-96 64 0) (-32 64 0)"
+			vertices_plus
+			{
+				"v" "-96 -0 0"
+				"v" "-96 64 0"
+				"v" "-32 64 0"
+				"v" "-32 0 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -1508,6 +2006,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_06"
 	"origin" "-128 128 160"
 	editor
@@ -1546,6 +2045,13 @@ entity
 		{
 			"id" "199"
 			"plane" "(-96 -64 0) (-96 0 0) (-32 0 0)"
+			vertices_plus
+			{
+				"v" "-96 -64 0"
+				"v" "-96 0 0"
+				"v" "-32 0 0"
+				"v" "-32 -64 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -1557,6 +2063,13 @@ entity
 		{
 			"id" "198"
 			"plane" "(-96 0 -2) (-96 0 0) (-96 -64 0)"
+			vertices_plus
+			{
+				"v" "-96 0 -2"
+				"v" "-96 0 0"
+				"v" "-96 -64 0"
+				"v" "-96 -64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1568,6 +2081,13 @@ entity
 		{
 			"id" "197"
 			"plane" "(-32 -64 -2) (-32 -64 0) (-32 0 0)"
+			vertices_plus
+			{
+				"v" "-32 -64 -2"
+				"v" "-32 -64 -0"
+				"v" "-32 0 0"
+				"v" "-32 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1579,6 +2099,13 @@ entity
 		{
 			"id" "196"
 			"plane" "(-96 -64 -2) (-96 -64 0) (-32 -64 0)"
+			vertices_plus
+			{
+				"v" "-96 -64 -2"
+				"v" "-96 -64 -0"
+				"v" "-32 -64 0"
+				"v" "-32 -64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1590,6 +2117,13 @@ entity
 		{
 			"id" "195"
 			"plane" "(-32 0 -2) (-32 0 0) (-96 0 0)"
+			vertices_plus
+			{
+				"v" "-32 0 -2"
+				"v" "-32 0 0"
+				"v" "-96 0 0"
+				"v" "-96 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1601,6 +2135,13 @@ entity
 		{
 			"id" "194"
 			"plane" "(-96 0 -2) (-96 -64 -2) (-32 -64 -2)"
+			vertices_plus
+			{
+				"v" "-96 0 -2"
+				"v" "-96 -64 -2"
+				"v" "-32 -64 -2"
+				"v" "-32 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -1657,6 +2198,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_07"
 	"origin" "-128 128 160"
 	editor
@@ -1695,6 +2237,13 @@ entity
 		{
 			"id" "205"
 			"plane" "(-96 -128 0) (-96 -128 -2) (-96 -64 -2)"
+			vertices_plus
+			{
+				"v" "-96 -128 0"
+				"v" "-96 -128 -2"
+				"v" "-96 -64 -2"
+				"v" "-96 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1706,6 +2255,13 @@ entity
 		{
 			"id" "204"
 			"plane" "(-32 -64 0) (-32 -64 -2) (-32 -128 -2)"
+			vertices_plus
+			{
+				"v" "-32 -64 0"
+				"v" "-32 -64 -2"
+				"v" "-32 -128 -2"
+				"v" "-32 -128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1717,6 +2273,13 @@ entity
 		{
 			"id" "203"
 			"plane" "(-32 -128 0) (-32 -128 -2) (-96 -128 -2)"
+			vertices_plus
+			{
+				"v" "-32 -128 0"
+				"v" "-32 -128 -2"
+				"v" "-96 -128 -2"
+				"v" "-96 -128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1728,6 +2291,13 @@ entity
 		{
 			"id" "202"
 			"plane" "(-96 -64 0) (-96 -64 -2) (-32 -64 -2)"
+			vertices_plus
+			{
+				"v" "-96 -64 0"
+				"v" "-96 -64 -2"
+				"v" "-32 -64 -2"
+				"v" "-32 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1739,6 +2309,13 @@ entity
 		{
 			"id" "201"
 			"plane" "(-96 -64 -2) (-96 -128 -2) (-32 -128 -2)"
+			vertices_plus
+			{
+				"v" "-96 -64 -2"
+				"v" "-96 -128 -2"
+				"v" "-32 -128 -2"
+				"v" "-32 -64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -1750,6 +2327,13 @@ entity
 		{
 			"id" "200"
 			"plane" "(-96 -128 0) (-96 -64 0) (-32 -64 0)"
+			vertices_plus
+			{
+				"v" "-96 -128 0"
+				"v" "-96 -64 0"
+				"v" "-32 -64 0"
+				"v" "-32 -128 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -1806,6 +2390,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_08"
 	"origin" "-128 128 160"
 	editor
@@ -1844,6 +2429,13 @@ entity
 		{
 			"id" "211"
 			"plane" "(-32 64 0) (-32 64 -2) (-32 128 -2)"
+			vertices_plus
+			{
+				"v" "-32 64 0"
+				"v" "-32 64 -2"
+				"v" "-32 128 -2"
+				"v" "-32 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1855,6 +2447,13 @@ entity
 		{
 			"id" "210"
 			"plane" "(32 128 0) (32 128 -2) (32 64 -2)"
+			vertices_plus
+			{
+				"v" "32 128 0"
+				"v" "32 128 -2"
+				"v" "32 64 -2"
+				"v" "32 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1866,6 +2465,13 @@ entity
 		{
 			"id" "209"
 			"plane" "(32 64 0) (32 64 -2) (-32 64 -2)"
+			vertices_plus
+			{
+				"v" "32 64 0"
+				"v" "32 64 -2"
+				"v" "-32 64 -2"
+				"v" "-32 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1877,6 +2483,13 @@ entity
 		{
 			"id" "208"
 			"plane" "(-32 128 0) (-32 128 -2) (32 128 -2)"
+			vertices_plus
+			{
+				"v" "-32 128 0"
+				"v" "-32 128 -2"
+				"v" "32 128 -2"
+				"v" "32 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -1888,6 +2501,13 @@ entity
 		{
 			"id" "207"
 			"plane" "(-32 128 -2) (-32 64 -2) (32 64 -2)"
+			vertices_plus
+			{
+				"v" "-32 128 -2"
+				"v" "-32 64 -2"
+				"v" "32 64 -2"
+				"v" "32 128 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -1899,6 +2519,13 @@ entity
 		{
 			"id" "206"
 			"plane" "(-32 64 0) (-32 128 0) (32 128 0)"
+			vertices_plus
+			{
+				"v" "-32 64 0"
+				"v" "-32 128 0"
+				"v" "32 128 0"
+				"v" "32 64 0"
+			}
 			"material" "NATURE/DIRTFLOOR004C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -1955,6 +2582,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_09"
 	"origin" "-128 128 160"
 	editor
@@ -1993,6 +2621,13 @@ entity
 		{
 			"id" "217"
 			"plane" "(-32 64 -2) (32 64 -2) (32 64 0)"
+			vertices_plus
+			{
+				"v" "-32 64 -2"
+				"v" "32 64 -2"
+				"v" "32 64 0"
+				"v" "-32 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2004,6 +2639,13 @@ entity
 		{
 			"id" "216"
 			"plane" "(32 64 -2) (-32 64 -2) (-32 0 -2)"
+			vertices_plus
+			{
+				"v" "32 64 -2"
+				"v" "-32 64 -2"
+				"v" "-32 0 -2"
+				"v" "32 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -2015,6 +2657,13 @@ entity
 		{
 			"id" "215"
 			"plane" "(-32 0 0) (-32 64 0) (32 64 0)"
+			vertices_plus
+			{
+				"v" "-32 0 0"
+				"v" "-32 64 0"
+				"v" "32 64 0"
+				"v" "32 0 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -2026,6 +2675,13 @@ entity
 		{
 			"id" "214"
 			"plane" "(-32 0 -2) (-32 64 -2) (-32 64 0)"
+			vertices_plus
+			{
+				"v" "-32 0 -2"
+				"v" "-32 64 -2"
+				"v" "-32 64 0"
+				"v" "-32 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2037,6 +2693,13 @@ entity
 		{
 			"id" "213"
 			"plane" "(32 64 0) (32 64 -2) (32 0 -2)"
+			vertices_plus
+			{
+				"v" "32 64 0"
+				"v" "32 64 -2"
+				"v" "32 0 -2"
+				"v" "32 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2048,6 +2711,13 @@ entity
 		{
 			"id" "212"
 			"plane" "(32 0 -2) (-32 0 -2) (-32 0 0)"
+			vertices_plus
+			{
+				"v" "32 0 -2"
+				"v" "-32 0 -2"
+				"v" "-32 0 0"
+				"v" "32 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2104,6 +2774,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_10"
 	"origin" "-128 128 160"
 	editor
@@ -2142,6 +2813,13 @@ entity
 		{
 			"id" "223"
 			"plane" "(-32 -64 0) (-32 -64 -2) (-32 0 -2)"
+			vertices_plus
+			{
+				"v" "-32 -64 0"
+				"v" "-32 -64 -2"
+				"v" "-32 0 -2"
+				"v" "-32 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2153,6 +2831,13 @@ entity
 		{
 			"id" "222"
 			"plane" "(32 0 0) (32 0 -2) (32 -64 -2)"
+			vertices_plus
+			{
+				"v" "32 0 0"
+				"v" "32 0 -2"
+				"v" "32 -64 -2"
+				"v" "32 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2164,6 +2849,13 @@ entity
 		{
 			"id" "221"
 			"plane" "(32 -64 0) (32 -64 -2) (-32 -64 -2)"
+			vertices_plus
+			{
+				"v" "32 -64 0"
+				"v" "32 -64 -2"
+				"v" "-32 -64 -2"
+				"v" "-32 -64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2175,6 +2867,13 @@ entity
 		{
 			"id" "220"
 			"plane" "(-32 0 0) (-32 0 -2) (32 0 -2)"
+			vertices_plus
+			{
+				"v" "-32 0 0"
+				"v" "-32 0 -2"
+				"v" "32 0 -2"
+				"v" "32 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2186,6 +2885,13 @@ entity
 		{
 			"id" "219"
 			"plane" "(-32 0 -2) (-32 -64 -2) (32 -64 -2)"
+			vertices_plus
+			{
+				"v" "-32 0 -2"
+				"v" "-32 -64 -2"
+				"v" "32 -64 -2"
+				"v" "32 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -2197,6 +2903,13 @@ entity
 		{
 			"id" "218"
 			"plane" "(-32 -64 0) (-32 0 0) (32 0 0)"
+			vertices_plus
+			{
+				"v" "-32 -64 0"
+				"v" "-32 0 0"
+				"v" "32 0 0"
+				"v" "32 -64 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -2253,6 +2966,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_11"
 	"origin" "-128 128 160"
 	editor
@@ -2291,6 +3005,13 @@ entity
 		{
 			"id" "229"
 			"plane" "(32 64 0) (32 64 -2) (32 128 -2)"
+			vertices_plus
+			{
+				"v" "32 64 0"
+				"v" "32 64 -2"
+				"v" "32 128 -2"
+				"v" "32 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2302,6 +3023,13 @@ entity
 		{
 			"id" "228"
 			"plane" "(96 128 0) (96 128 -2) (96 64 -2)"
+			vertices_plus
+			{
+				"v" "96 128 0"
+				"v" "96 128 -2"
+				"v" "96 64 -2"
+				"v" "96 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2313,6 +3041,13 @@ entity
 		{
 			"id" "227"
 			"plane" "(96 64 0) (96 64 -2) (32 64 -2)"
+			vertices_plus
+			{
+				"v" "96 64 0"
+				"v" "96 64 -2"
+				"v" "32 64 -2"
+				"v" "32 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2324,6 +3059,13 @@ entity
 		{
 			"id" "226"
 			"plane" "(32 128 0) (32 128 -2) (96 128 -2)"
+			vertices_plus
+			{
+				"v" "32 128 0"
+				"v" "32 128 -2"
+				"v" "96 128 -2"
+				"v" "96 128 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2335,6 +3077,13 @@ entity
 		{
 			"id" "225"
 			"plane" "(32 128 -2) (32 64 -2) (96 64 -2)"
+			vertices_plus
+			{
+				"v" "32 128 -2"
+				"v" "32 64 -2"
+				"v" "96 64 -2"
+				"v" "96 128 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -2346,6 +3095,13 @@ entity
 		{
 			"id" "224"
 			"plane" "(32 64 0) (32 128 0) (96 128 0)"
+			vertices_plus
+			{
+				"v" "32 64 0"
+				"v" "32 128 0"
+				"v" "96 128 0"
+				"v" "96 64 0"
+			}
 			"material" "NATURE/DIRTFLOOR004C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -2402,6 +3158,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_12"
 	"origin" "-128 128 160"
 	editor
@@ -2440,6 +3197,13 @@ entity
 		{
 			"id" "235"
 			"plane" "(96 64 0) (96 64 -2) (96 0 -2)"
+			vertices_plus
+			{
+				"v" "96 64 0"
+				"v" "96 64 -2"
+				"v" "96 0 -2"
+				"v" "96 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2451,6 +3215,13 @@ entity
 		{
 			"id" "234"
 			"plane" "(96 0 0) (96 0 -2) (32 0 -2)"
+			vertices_plus
+			{
+				"v" "96 0 0"
+				"v" "96 0 -2"
+				"v" "32 0 -2"
+				"v" "32 0 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2462,6 +3233,13 @@ entity
 		{
 			"id" "233"
 			"plane" "(32 64 -2) (96 64 -2) (96 64 0)"
+			vertices_plus
+			{
+				"v" "32 64 -2"
+				"v" "96 64 -2"
+				"v" "96 64 0"
+				"v" "32 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2473,6 +3251,13 @@ entity
 		{
 			"id" "232"
 			"plane" "(32 0 -2) (96 0 -2) (96 64 -2)"
+			vertices_plus
+			{
+				"v" "32 -0 -2"
+				"v" "96 -0 -2"
+				"v" "96 64 -2"
+				"v" "32 64 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -2484,6 +3269,13 @@ entity
 		{
 			"id" "231"
 			"plane" "(32 64 0) (96 64 0) (96 0 0)"
+			vertices_plus
+			{
+				"v" "32 64 0"
+				"v" "96 64 0"
+				"v" "96 0 0"
+				"v" "32 0 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -2495,6 +3287,13 @@ entity
 		{
 			"id" "230"
 			"plane" "(32 0 0) (32 0 -2) (32 64 -2)"
+			vertices_plus
+			{
+				"v" "32 0 0"
+				"v" "32 0 -2"
+				"v" "32 64 -2"
+				"v" "32 64 0"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 1 0] 0.25"
@@ -2551,6 +3350,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_13"
 	"origin" "-128 128 160"
 	editor
@@ -2589,6 +3389,13 @@ entity
 		{
 			"id" "241"
 			"plane" "(32 -64 0) (32 -64 -2) (32 0 -2)"
+			vertices_plus
+			{
+				"v" "32 -64 0"
+				"v" "32 -64 -2"
+				"v" "32 0 -2"
+				"v" "32 0 0"
+			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002C"
 			"uaxis" "[0 -1 0 768] 0.25"
 			"vaxis" "[0 0 1 512] 0.25"
@@ -2600,6 +3407,13 @@ entity
 		{
 			"id" "240"
 			"plane" "(96 0 0) (96 0 -2) (96 -64 -2)"
+			vertices_plus
+			{
+				"v" "96 0 0"
+				"v" "96 0 -2"
+				"v" "96 -64 -2"
+				"v" "96 -64 0"
+			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002C"
 			"uaxis" "[0 -1 0 768] 0.25"
 			"vaxis" "[0 0 1 512] 0.25"
@@ -2611,6 +3425,13 @@ entity
 		{
 			"id" "239"
 			"plane" "(96 -64 0) (96 -64 -2) (32 -64 -2)"
+			vertices_plus
+			{
+				"v" "96 -64 0"
+				"v" "96 -64 -2"
+				"v" "32 -64 -2"
+				"v" "32 -64 0"
+			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002C"
 			"uaxis" "[1 0 0 -256] 0.25"
 			"vaxis" "[0 0 1 512] 0.25"
@@ -2622,6 +3443,13 @@ entity
 		{
 			"id" "238"
 			"plane" "(32 0 0) (32 0 -2) (96 0 -2)"
+			vertices_plus
+			{
+				"v" "32 0 0"
+				"v" "32 0 -2"
+				"v" "96 0 -2"
+				"v" "96 0 0"
+			}
 			"material" "CONCRETE/CONCRETE_BTS_FLOOR002C"
 			"uaxis" "[1 0 0 -256] 0.25"
 			"vaxis" "[0 0 1 512] 0.25"
@@ -2633,6 +3461,13 @@ entity
 		{
 			"id" "237"
 			"plane" "(32 0 -2) (32 -64 -2) (96 -64 -2)"
+			vertices_plus
+			{
+				"v" "32 0 -2"
+				"v" "32 -64 -2"
+				"v" "96 -64 -2"
+				"v" "96 0 -2"
+			}
 			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -256] 0.25"
@@ -2644,6 +3479,13 @@ entity
 		{
 			"id" "236"
 			"plane" "(32 -64 0) (32 0 0) (96 0 0)"
+			vertices_plus
+			{
+				"v" "32 -64 0"
+				"v" "32 0 0"
+				"v" "96 0 0"
+				"v" "96 -64 0"
+			}
 			"material" "METAL/BLACK_FLOOR_METAL_001C"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
@@ -2700,6 +3542,7 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"spawnflags" "0"
+	"suppressanimsounds" "0"
 	"targetname" "robo_flooranimA_14"
 	"origin" "-128 128 160"
 	editor
@@ -2830,6 +3673,13 @@ entity
 		{
 			"id" "259"
 			"plane" "(-160 -128 0) (-160 -128 -1) (-160 128 -1)"
+			vertices_plus
+			{
+				"v" "-160 -128 0"
+				"v" "-160 -128 -1"
+				"v" "-160 128 -1"
+				"v" "-160 128 0"
+			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2841,6 +3691,13 @@ entity
 		{
 			"id" "258"
 			"plane" "(160 128 0) (160 128 -1) (160 -128 -1)"
+			vertices_plus
+			{
+				"v" "160 128 0"
+				"v" "160 128 -1"
+				"v" "160 -128 -1"
+				"v" "160 -128 0"
+			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2852,6 +3709,13 @@ entity
 		{
 			"id" "257"
 			"plane" "(160 -128 0) (160 -128 -1) (-160 -128 -1)"
+			vertices_plus
+			{
+				"v" "160 -128 0"
+				"v" "160 -128 -1"
+				"v" "-160 -128 -1"
+				"v" "-160 -128 0"
+			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2863,6 +3727,13 @@ entity
 		{
 			"id" "256"
 			"plane" "(-160 128 0) (-160 128 -1) (160 128 -1)"
+			vertices_plus
+			{
+				"v" "-160 128 0"
+				"v" "-160 128 -1"
+				"v" "160 128 -1"
+				"v" "160 128 0"
+			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2874,6 +3745,13 @@ entity
 		{
 			"id" "255"
 			"plane" "(-160 128 -1) (-160 -128 -1) (160 -128 -1)"
+			vertices_plus
+			{
+				"v" "-160 128 -1"
+				"v" "-160 -128 -1"
+				"v" "160 -128 -1"
+				"v" "160 128 -1"
+			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2885,6 +3763,13 @@ entity
 		{
 			"id" "254"
 			"plane" "(-160 -128 0) (-160 128 0) (160 128 0)"
+			vertices_plus
+			{
+				"v" "-160 -128 0"
+				"v" "-160 128 0"
+				"v" "160 128 0"
+				"v" "160 -128 0"
+			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
