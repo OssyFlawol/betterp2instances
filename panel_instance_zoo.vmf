@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "43"
+	"mapversion" "146"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "43"
+	"mapversion" "146"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -29,11 +29,473 @@ world
 	"skyname" "sky_black_nofog"
 	solid
 	{
+		"id" "4529"
+		side
+		{
+			"id" "48"
+			"plane" "(-16376 16376 16376) (16376 16376 16376) (16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-16376 16376 16376) (-16376 -16376 16376) (-16376 -16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(16376 16376 -16376) (16376 -16376 -16376) (16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(10240 -1024 1536) (10240 512 1536) (-1280 512 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 163 140"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "4531"
+		side
+		{
+			"id" "78"
+			"plane" "(-16376 -16376 -16376) (16376 -16376 -16376) (16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(-16376 16376 16376) (-16376 -16376 16376) (-16376 -16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(16376 16376 -16376) (16376 -16376 -16376) (16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(10240 512 -512) (10240 -1024 -512) (-1280 -1024 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 163 140"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "4533"
+		side
+		{
+			"id" "72"
+			"plane" "(-16376 16376 16376) (-16376 -16376 16376) (-16376 -16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(-1280 512 1536) (10240 512 1536) (10240 -1024 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(-1280 -1024 -512) (10240 -1024 -512) (10240 512 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(-1280 -1024 -512) (-1280 -1024 1536) (-1280 512 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 163 140"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "4535"
+		side
+		{
+			"id" "66"
+			"plane" "(16376 16376 -16376) (16376 -16376 -16376) (16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "65"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "64"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(-1280 512 1536) (10240 512 1536) (10240 -1024 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(-1280 -1024 -512) (10240 -1024 -512) (10240 512 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "61"
+			"plane" "(10240 -1024 1536) (10240 -1024 -512) (10240 512 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 163 140"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "4537"
+		side
+		{
+			"id" "60"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "59"
+			"plane" "(-1280 512 1536) (10240 512 1536) (10240 -1024 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-1280 -1024 -512) (10240 -1024 -512) (10240 512 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(-1280 512 1536) (-1280 -1024 1536) (-1280 -1024 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(10240 512 -512) (10240 -1024 -512) (10240 -1024 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(-1280 512 -512) (-1280 512 1536) (10240 512 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 163 140"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "4539"
+		side
+		{
+			"id" "54"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "53"
+			"plane" "(-1280 512 1536) (10240 512 1536) (10240 -1024 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52"
+			"plane" "(-1280 -1024 -512) (10240 -1024 -512) (10240 512 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51"
+			"plane" "(-1280 512 1536) (-1280 -1024 1536) (-1280 -1024 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(10240 512 -512) (10240 -1024 -512) (10240 -1024 1536)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49"
+			"plane" "(-1280 -1024 1536) (-1280 -1024 -512) (10240 -1024 -512)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 163 140"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
 		"id" "2"
 		side
 		{
 			"id" "1"
-			"plane" "(-1024 -512 64) (-1024 0 64) (9984 0 64)"
+			"plane" "(-1280 -1024 64) (-1280 512 64) (10240 512 64)"
 			"material" "DEV/REFLECTIVITY_40"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -44,7 +506,7 @@ world
 		side
 		{
 			"id" "2"
-			"plane" "(-1024 0 0) (-1024 -512 0) (9984 -512 0)"
+			"plane" "(-1280 512 -512) (-1280 -1024 -512) (10240 -1024 -512)"
 			"material" "DEV/REFLECTIVITY_40"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -55,7 +517,7 @@ world
 		side
 		{
 			"id" "3"
-			"plane" "(-1024 -512 0) (-1024 0 0) (-1024 0 64)"
+			"plane" "(-1280 -1024 -512) (-1280 512 -512) (-1280 512 64)"
 			"material" "DEV/REFLECTIVITY_40"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -66,7 +528,7 @@ world
 		side
 		{
 			"id" "4"
-			"plane" "(9984 0 0) (9984 -512 0) (9984 -512 64)"
+			"plane" "(10240 512 -512) (10240 -1024 -512) (10240 -1024 64)"
 			"material" "DEV/REFLECTIVITY_40"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -77,7 +539,7 @@ world
 		side
 		{
 			"id" "5"
-			"plane" "(-1024 0 0) (9984 0 0) (9984 0 64)"
+			"plane" "(-1280 512 -512) (10240 512 -512) (10240 512 64)"
 			"material" "DEV/REFLECTIVITY_40"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -88,7 +550,7 @@ world
 		side
 		{
 			"id" "6"
-			"plane" "(9984 -512 0) (-1024 -512 0) (-1024 -512 64)"
+			"plane" "(10240 -1024 -512) (-1280 -1024 -512) (-1280 -1024 64)"
 			"material" "DEV/REFLECTIVITY_40"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -111,6 +573,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/wall_replace_2.vmf"
 	"fixup_style" "0"
+	"targetname" "wall_replace_2"
 	"origin" "9408 -256 448"
 	editor
 	{
@@ -127,6 +590,7 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/panels/wall_replace_3.vmf"
 	"fixup_style" "0"
+	"targetname" "wall_replace_3"
 	"origin" "9664 -384 192"
 	editor
 	{
@@ -143,6 +607,7 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/panels/wall_replace_4.vmf"
 	"fixup_style" "0"
+	"targetname" "wall_replace_4"
 	"origin" "9856 -320 256"
 	editor
 	{
@@ -159,6 +624,7 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/panels/320x256_error_wall.vmf"
 	"fixup_style" "0"
+	"targetname" "320x256_error_wall"
 	"origin" "4160 -192 256"
 	editor
 	{
@@ -175,6 +641,7 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/panels/c19_dangling_arms.vmf"
 	"fixup_style" "0"
+	"targetname" "c19_dangling_arms"
 	"origin" "4672 -256 320"
 	editor
 	{
@@ -191,6 +658,7 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/panels/c19_hallway_repair.vmf"
 	"fixup_style" "0"
+	"targetname" "c19_hallway_repair"
 	"origin" "5184 -320 192"
 	editor
 	{
@@ -207,6 +675,7 @@ entity
 	"angles" "-0 180 0"
 	"file" "instances/panels/catapult_intro_hallway_debris.vmf"
 	"fixup_style" "0"
+	"targetname" "catapult_intro_hallway_debris"
 	"origin" "5504 -192 192"
 	editor
 	{
@@ -239,6 +708,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/floor_panel_1.vmf"
 	"fixup_style" "0"
+	"targetname" "floor_panel_1"
 	"origin" "6080 -192 192"
 	editor
 	{
@@ -255,6 +725,7 @@ entity
 	"angles" "-0 180 0"
 	"file" "instances/panels/laser_over_goo_hallway_arms.vmf"
 	"fixup_style" "0"
+	"targetname" "laser_over_goo_hallway_arms"
 	"origin" "6464 -192 256"
 	editor
 	{
@@ -271,6 +742,7 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/panels/sphere_peek_landing.vmf"
 	"fixup_style" "0"
+	"targetname" "sphere_peek_landing"
 	"origin" "6976 -192 256"
 	editor
 	{
@@ -287,6 +759,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/rubble_collapse_white_panels.vmf"
 	"fixup_style" "0"
+	"targetname" "rubble_collapse_white_panels"
 	"origin" "7488 -256 192"
 	editor
 	{
@@ -303,6 +776,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/speed_tb_makeramp.vmf"
 	"fixup_style" "0"
+	"targetname" "speed_tb_makeramp"
 	"origin" "7840 -480 192"
 	editor
 	{
@@ -319,6 +793,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/triple_laser_moving_panel.vmf"
 	"fixup_style" "0"
+	"targetname" "triple_laser_moving_panel"
 	"origin" "8160 -352 192"
 	editor
 	{
@@ -335,6 +810,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/turret_trap_panels.vmf"
 	"fixup_style" "0"
+	"targetname" "turret_trap_panels"
 	"origin" "8576 -256 192"
 	editor
 	{
@@ -351,6 +827,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/wall_replace_1.vmf"
 	"fixup_style" "0"
+	"targetname" "wall_replace_1"
 	"origin" "9088 -256 192"
 	editor
 	{
@@ -367,6 +844,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/9x9_wall_repair.vmf"
 	"fixup_style" "0"
+	"targetname" "9x9_wall"
 	"origin" "-896 -128 65"
 	editor
 	{
@@ -383,6 +861,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/64up_stairs.vmf"
 	"fixup_style" "0"
+	"targetname" "64up_stairs"
 	"origin" "-640 -128 128"
 	editor
 	{
@@ -399,6 +878,7 @@ entity
 	"angles" "-0 180 0"
 	"file" "instances/panels/64x64_ceiling_open.vmf"
 	"fixup_style" "0"
+	"targetname" "64x64_ceiling"
 	"origin" "-448 -128 128"
 	editor
 	{
@@ -415,6 +895,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/64x64_floor_assemble.vmf"
 	"fixup_style" "0"
+	"targetname" "64x64_floor"
 	"origin" "-320 -128 192"
 	editor
 	{
@@ -428,10 +909,11 @@ entity
 {
 	"id" "116"
 	"classname" "func_instance"
-	"angles" "-0 -180 0"
+	"angles" "-0 -1.00179e-05 0"
 	"file" "instances/panels/64x128_sphere_peek_arms.vmf"
 	"fixup_style" "0"
-	"origin" "-256 -128 192"
+	"targetname" "64x128_sphere"
+	"origin" "-256 -192 192"
 	editor
 	{
 		"color" "220 30 220"
@@ -447,6 +929,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/64x192_corner_landing.vmf"
 	"fixup_style" "0"
+	"targetname" "64x192_corner"
 	"origin" "-64 -128 192"
 	editor
 	{
@@ -463,6 +946,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/64x192_floor_settle.vmf"
 	"fixup_style" "0"
+	"targetname" "64x192_floor"
 	"origin" "192 -128 192"
 	editor
 	{
@@ -479,6 +963,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/64x192_wall_repair.vmf"
 	"fixup_style" "0"
+	"targetname" "64x192_wall"
 	"origin" "448 -128 192"
 	editor
 	{
@@ -495,6 +980,7 @@ entity
 	"angles" "-0 1.00179e-005 0"
 	"file" "instances/panels/64x192_wall_settle.vmf"
 	"fixup_style" "0"
+	"targetname" "64x192_wall_settle"
 	"origin" "576 -128 320"
 	editor
 	{
@@ -511,6 +997,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/64x192_wall_swing.vmf"
 	"fixup_style" "0"
+	"targetname" "64x192_wall_swing"
 	"origin" "704 -128 128"
 	editor
 	{
@@ -527,6 +1014,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/90deg_makeramp.vmf"
 	"fixup_style" "0"
+	"targetname" "90deg_makeramp"
 	"origin" "832 -64 192"
 	editor
 	{
@@ -543,6 +1031,7 @@ entity
 	"angles" "-0 180 0"
 	"file" "instances/panels/90deg_makeramp_dest.vmf"
 	"fixup_style" "0"
+	"targetname" "90deg_makeramp_dest"
 	"origin" "1024 -64 192"
 	editor
 	{
@@ -559,6 +1048,7 @@ entity
 	"angles" "-0 180 0"
 	"file" "instances/panels/90deg_makeramp_grate.vmf"
 	"fixup_style" "0"
+	"targetname" "90deg_makeramp_grate"
 	"origin" "1152 -64 192"
 	editor
 	{
@@ -575,6 +1065,7 @@ entity
 	"angles" "-0 180 0"
 	"file" "instances/panels/90deg_makeramp_short.vmf"
 	"fixup_style" "0"
+	"targetname" "90deg_makeramp_short"
 	"origin" "1280 -64 192"
 	editor
 	{
@@ -591,6 +1082,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/90deg_makeramp_short_dest.vmf"
 	"fixup_style" "0"
+	"targetname" "90deg_makeramp_short_dest"
 	"origin" "1408 -64 192"
 	editor
 	{
@@ -607,6 +1099,7 @@ entity
 	"angles" "-0 180 0"
 	"file" "instances/panels/128x128_error_floor.vmf"
 	"fixup_style" "0"
+	"targetname" "128x128_error_floor"
 	"origin" "1536 -192 192"
 	editor
 	{
@@ -623,6 +1116,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/128x192_ceiling_collapse.vmf"
 	"fixup_style" "0"
+	"targetname" "128x192_ceiling_collapse"
 	"origin" "1728 -192 320"
 	editor
 	{
@@ -639,6 +1133,7 @@ entity
 	"angles" "-0 180 0"
 	"file" "instances/panels/128x256_panel_stairs.vmf"
 	"fixup_style" "0"
+	"targetname" "128x256_panel_stairs"
 	"origin" "1920 -192 192"
 	editor
 	{
@@ -655,6 +1150,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/128x256_rubble_scrape.vmf"
 	"fixup_style" "0"
+	"targetname" "128x256_rubble_scrape"
 	"origin" "2176 -128 192"
 	editor
 	{
@@ -671,6 +1167,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/panels/192_dual_lasers_platform.vmf"
 	"fixup_style" "0"
+	"targetname" "192_dual_lasers_platform"
 	"origin" "2560 -192 192"
 	editor
 	{
@@ -687,6 +1184,7 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/panels/192x128_glass_makeramp.vmf"
 	"fixup_style" "0"
+	"targetname" "192x128_glass_makeramp"
 	"origin" "2816 -192 192"
 	editor
 	{
@@ -703,6 +1201,7 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/panels/192x128_wall_settle.vmf"
 	"fixup_style" "0"
+	"targetname" "192x128_wall_settle"
 	"origin" "2944 -192 192"
 	editor
 	{
@@ -719,6 +1218,7 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/panels/192x128_wall_settle_2.vmf"
 	"fixup_style" "0"
+	"targetname" "192x128_wall_settle_2"
 	"origin" "3264 -192 192"
 	editor
 	{
@@ -735,6 +1235,7 @@ entity
 	"angles" "-0 1.00179e-005 0"
 	"file" "instances/panels/192x128_wall_settle_3.vmf"
 	"fixup_style" "0"
+	"targetname" "192x128_wall_settle_3"
 	"origin" "3456 -192 256"
 	editor
 	{
@@ -751,6 +1252,7 @@ entity
 	"angles" "-0 1.00179e-005 0"
 	"file" "instances/panels/256x320_floor_settle.vmf"
 	"fixup_style" "0"
+	"targetname" "256x320_floor_settle"
 	"origin" "3776 -192 256"
 	editor
 	{
@@ -760,11 +1262,1315 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "1840"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "9x9_wallinstance:panel_repair_64x64_9;Trigger0-1"
+	}
+	"origin" "-896 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2057"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64up_stairsinstance:ramp_down_relay;Trigger0-1"
+	}
+	"origin" "-672 -384 64.2551"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2061"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64up_stairsinstance:ramp_up_relay;Trigger0-1"
+	}
+	"origin" "-608 -384 64.2551"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2106"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x64_ceilinginstance:open_panel;Trigger0-1"
+	}
+	"origin" "-480 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2154"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x64_floorinstance:floor_panel_up;Trigger0-1"
+	}
+	"origin" "-352 -352 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2164"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x64_floorinstance:floor_panel_down;Trigger0-1"
+	}
+	"origin" "-384 -352 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2205"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x128_sphereinstance:eyepeek;Trigger0-1"
+	}
+	"origin" "-256 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2250"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x192_cornerinstance:arm_spherepeek_03;Trigger0-1"
+	}
+	"origin" "-64 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2292"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x192_floorinstance:panels_popin;Trigger0-1"
+	}
+	"origin" "192 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2298"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x192_wallinstance:panel_repair_64x64_3;Trigger0-1"
+	}
+	"origin" "448 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2322"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x192_wall_settleinstance:panel_repair_64x64_3vert;Trigger0-1"
+	}
+	"origin" "608 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2330"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "64x192_wall_swinginstance:panels_intowall;Trigger0-1"
+	}
+	"origin" "704 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2370"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makerampinstance:ramp_close;Trigger0-1"
+	}
+	"origin" "864 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2394"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makerampinstance:ramp_open;Trigger0-1"
+	}
+	"origin" "800 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2420"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makeramp_destinstance:ramp_close;Trigger0-1"
+	}
+	"origin" "1056 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2424"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makeramp_destinstance:ramp_open;Trigger0-1"
+	}
+	"origin" "992 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2483"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makeramp_grateinstance:ramp_close;Trigger0-1"
+	}
+	"origin" "1168 -352 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2487"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makeramp_grateinstance:ramp_open;Trigger0-1"
+	}
+	"origin" "1136 -352 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2524"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makeramp_shortinstance:ramp_close;Trigger0-1"
+	}
+	"origin" "1264 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2528"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makeramp_shortinstance:ramp_open;Trigger0-1"
+	}
+	"origin" "1232 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2556"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makeramp_short_destinstance:ramp_close;Trigger0-1"
+	}
+	"origin" "1392 -352 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2560"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "90deg_makeramp_short_destinstance:ramp_open;Trigger0-1"
+	}
+	"origin" "1360 -352 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2591"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "128x128_error_floorinstance:arm_headbutt_start;Trigger0-1"
+	}
+	"origin" "1552 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "2784"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "128x192_ceiling_collapseinstance:falling_ceiling_tiles_relay;Trigger0-1"
+	}
+	"origin" "1728 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "2808"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "128x256_panel_stairsinstance:ramp_up_relay;Trigger0-1"
+	}
+	"origin" "1936 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2812"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "128x256_panel_stairsinstance:ramp_down_relay;Trigger0-1"
+	}
+	"origin" "1904 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2854"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "128x256_rubble_scrapeinstance:rubble_scrape01_go;Trigger0-1"
+	}
+	"origin" "2176 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "2894"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "192x128_glass_makerampinstance:ramp_open;Trigger0-1"
+	}
+	"origin" "2832 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "2971"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "192_dual_lasers_platforminstance:raise_platform;Trigger0-1"
+	}
+	"origin" "2560 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "3010"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "192x128_wall_settleinstance:panel_repair_64x64_6;Trigger0-1"
+	}
+	"origin" "3040 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3041"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "192x128_wall_settle_2instance:panel_repair_64x64_6;Trigger0-1"
+	}
+	"origin" "3264 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3082"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "192x128_wall_settle_3instance:wall_repair;Trigger0-1"
+	}
+	"origin" "3488 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3122"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "256x320_floor_settleinstance:flooranimA_go;Trigger0-1"
+	}
+	"origin" "3776 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3144"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "320x256_error_wallinstance:start_2x2error_arms_relay;Trigger0-1"
+	}
+	"origin" "4176 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3148"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "320x256_error_wallinstance:change_to_error_state_03;Trigger0-1"
+	}
+	"origin" "4144 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3178"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "c19_dangling_armsinstance:dangle_arms_lightflicker_01;Trigger0-1"
+	}
+	"origin" "4736 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3201"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "c19_dangling_armsinstance:dangle_arms_lightflicker_01;CancelPending0-1"
+	}
+	"origin" "4672 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3225"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "c19_hallway_repairinstance:open;Trigger0-1"
+	}
+	"origin" "5184 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3265"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "catapult_intro_hallway_debrisinstance:hallway_sim_go;Trigger0-1"
+	}
+	"origin" "5504 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3340"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "floor_panel_1instance:repair_floor;Trigger0-1"
+	}
+	"origin" "6080 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3380"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "laser_over_goo_hallway_armsinstance:corridor_repair;Trigger0-1"
+	}
+	"origin" "6432 -448 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3475"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "sphere_peek_landinginstance:ramp_close;Trigger0-1"
+	}
+	"origin" "6992 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3479"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "sphere_peek_landinginstance:ramp_open;Trigger0-1"
+	}
+	"origin" "6960 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3525"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "rubble_collapse_white_panelsinstance:collapse;Trigger0-1"
+	}
+	"origin" "7488 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3573"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "speed_tb_makerampinstance:start_ramp;Trigger0-1"
+	}
+	"origin" "7840 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3629"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "triple_laser_moving_panelinstance:activate_panels;Trigger0-1"
+	}
+	"origin" "8192 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3634"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "triple_laser_moving_panelinstance:laser_on;Trigger0-1"
+	}
+	"origin" "8128 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3678"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "triple_laser_moving_panelinstance:laser_off;Trigger0-1"
+	}
+	"origin" "8096 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3688"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "triple_laser_moving_panelinstance:enable_on_anim_done;Add0-1"
+	}
+	"origin" "8256 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3713"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "turret_trap_panelsinstance:open_upper_panels;Trigger0-1"
+	}
+	"origin" "8640 -448 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3772"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "wall_replace_1instance:replace_wall_relay;Trigger0-1"
+	}
+	"origin" "9088 -448 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3812"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "wall_replace_2instance:replace_wall_relay;Trigger0-1"
+	}
+	"origin" "9408 -448 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3836"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "wall_replace_3instance:panel_open_relay;Trigger0-1"
+	}
+	"origin" "9664 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3861"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "wall_replace_4instance:panel_rotate_relay;Trigger0-1"
+	}
+	"origin" "9856 -640 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3931"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "-960 -640 64"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4260"
+	"classname" "prop_button"
+	"angles" "0 270 0"
+	"delay" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	connections
+	{
+		"OnPressed" "128x128_error_floorinstance:arm_disable;Trigger0-1"
+	}
+	"origin" "1520 -384 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
 cameras
 {
 	"activecamera" "-1"
 }
 cordons
 {
-	"active" "0"
+	"active" "1"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-1280 -1024 -512)"
+			"maxs" "(10240 512 1536)"
+		}
+	}
 }
