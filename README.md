@@ -5,6 +5,6 @@ You are intended to download this as a .zip via GitHub and then to merge the ins
 
 Credit is not required - only redistribution credit is required.
 
-CONTRIBUTIONS:
-Ossila Flawol
-!Λvery!
+CREDITS:
+- Ossila Flawol
+- !Λvery!
