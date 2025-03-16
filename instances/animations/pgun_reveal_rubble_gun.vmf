@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "18"
+	"mapversion" "25"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "18"
+	"mapversion" "25"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -883,25 +883,6 @@ world
 }
 entity
 {
-	"id" "616"
-	"classname" "func_instance_io_proxy"
-	"angles" "-0 -90 0"
-	"targetname" "revealdown_proxy"
-	connections
-	{
-		"OnProxyRelay" "revealdownTrigger0-1"
-	}
-	"origin" "-48 16 41"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 9500]"
-	}
-}
-entity
-{
 	"id" "28345"
 	"classname" "trigger_push"
 	"alternateticksfix" "0"
@@ -1104,40 +1085,6 @@ entity
 }
 entity
 {
-	"id" "28354"
-	"classname" "logic_relay"
-	"angles" "-0 -90 0"
-	"spawnflags" "0"
-	"targetname" "@disable_reveal_arms"
-	connections
-	{
-		"OnTrigger" "robo_gun_reveal_07Disable0-1"
-		"OnTrigger" "robo_gun_reveal_01Disable0-1"
-		"OnTrigger" "robo_gun_reveal_02Disable0-1"
-		"OnTrigger" "robo_gun_reveal_03Disable0-1"
-		"OnTrigger" "robo_gun_reveal_04Disable0-1"
-		"OnTrigger" "robo_gun_reveal_05Disable0-1"
-		"OnTrigger" "robo_gun_reveal_06Disable0-1"
-		"OnTrigger" "robo_gun_reveal_07panelDisable0-1"
-		"OnTrigger" "robo_gun_reveal_06panelDisable0-1"
-		"OnTrigger" "robo_gun_reveal_05panelDisable0-1"
-		"OnTrigger" "robo_gun_reveal_04panelDisable0-1"
-		"OnTrigger" "robo_gun_reveal_03panelDisable0-1"
-		"OnTrigger" "robo_gun_reveal_02panelDisable0-1"
-		"OnTrigger" "robo_gun_reveal_01panelDisable0-1"
-	}
-	"origin" "24.25 33.154 41"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupid" "29"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 11000]"
-	}
-}
-entity
-{
 	"id" "28356"
 	"classname" "func_brush"
 	"disablereceiveshadows" "0"
@@ -1291,6 +1238,7 @@ entity
 		"OnTrigger" "particle_gun_chargeDestroyImmediately01"
 		"OnTrigger" "player_near_portalgunDisable01"
 		"OnTrigger" "portalgun_buttonKill01"
+		"OnTrigger" "revealdownTrigger0.1-1"
 	}
 	"origin" "-43.0699 -10.413 17"
 	editor
@@ -1310,12 +1258,6 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "robo_gun_reveal_01panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
-		"OnMapSpawn" "robo_gun_reveal_02panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
-		"OnMapSpawn" "robo_gun_reveal_03panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
-		"OnMapSpawn" "robo_gun_reveal_04panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
-		"OnMapSpawn" "robo_gun_reveal_05panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
-		"OnMapSpawn" "robo_gun_reveal_06panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
 		"OnMapSpawn" "robo_gun_reveal_06SetDefaultAnimationgun_reveal_06up_idle0.1-1"
 		"OnMapSpawn" "robo_gun_reveal_05SetDefaultAnimationgun_reveal_05up_idle0.1-1"
 		"OnMapSpawn" "robo_gun_reveal_04SetDefaultAnimationgun_reveal_04up_idle0.1-1"
@@ -1891,12 +1833,7 @@ entity
 	"wait" "-1"
 	connections
 	{
-		"OnFullyClosed" "texture_light_entry_hallway_1TurnOn11"
-		"OnFullyClosed" "texture_light_entry_hallway_1SetLightStylenormal11"
-		"OnFullyClosed" "aud_VFX.LightFlickerEndPlaySound0.9-1"
-		"OnFullyClosed" "aud_VFX.LightFlickerPlaySound0.55-1"
-		"OnFullyClosed" "aud_VFX.LightFlickerPlaySound0.2-1"
-		"OnFullyClosed" "aud_VFX.LightFlickerPlaySound0-1"
+		"OnFullyClosed" "light_secondgun_pitTurnOff11"
 	}
 	solid
 	{
@@ -2187,40 +2124,6 @@ entity
 }
 entity
 {
-	"id" "28494"
-	"classname" "logic_relay"
-	"angles" "-0 -90 0"
-	"spawnflags" "0"
-	"targetname" "@enable_reveal_arms"
-	connections
-	{
-		"OnUser3" "robo_gun_reveal_07Enable0-1"
-		"OnTrigger" "robo_gun_reveal_01Enable0-1"
-		"OnTrigger" "robo_gun_reveal_02Enable0-1"
-		"OnTrigger" "robo_gun_reveal_03Enable0-1"
-		"OnTrigger" "robo_gun_reveal_04Enable0-1"
-		"OnTrigger" "robo_gun_reveal_05Enable0-1"
-		"OnTrigger" "robo_gun_reveal_06Enable0-1"
-		"OnTrigger" "robo_gun_reveal_07panelEnable0-1"
-		"OnTrigger" "robo_gun_reveal_06panelEnable0-1"
-		"OnTrigger" "robo_gun_reveal_05panelEnable0-1"
-		"OnTrigger" "robo_gun_reveal_04panelEnable0-1"
-		"OnTrigger" "robo_gun_reveal_03panelEnable0-1"
-		"OnTrigger" "robo_gun_reveal_02panelEnable0-1"
-		"OnTrigger" "robo_gun_reveal_01panelEnable0-1"
-	}
-	"origin" "24.25 1.15399 41"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupid" "29"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 7500]"
-	}
-}
-entity
-{
 	"id" "28496"
 	"classname" "logic_relay"
 	"angles" "0 0 0"
@@ -2462,6 +2365,7 @@ entity
 		"OnTrigger" "panels_fully_liftedEnable0-1"
 		"OnTrigger" "gunreveal_flickerlights_01Trigger0-1"
 		"OnTrigger" "portalgun_playerclipKill4.7-1"
+		"OnTrigger" "light_secondgun_pitTurnOn0-1"
 	}
 	"origin" "-7.75 33.154 41"
 	editor
@@ -3015,6 +2919,7 @@ entity
 	connections
 	{
 		"OnProxyRelay" "revealupTrigger0-1"
+		"OnProxyRelay" "revealdownTrigger0-1"
 	}
 	"origin" "-48 0 41"
 	editor

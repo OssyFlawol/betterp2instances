@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "7"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "8"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
 }
 entity
 {
@@ -620,26 +620,9 @@ entity
 	connections
 	{
 		"OnProxyRelay" "open_relayTrigger0-1"
-	}
-	"origin" "52 24 116"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "2738"
-	"classname" "func_instance_io_proxy"
-	"targetname" "close_proxy"
-	connections
-	{
 		"OnProxyRelay" "close_relayTrigger0-1"
 	}
-	"origin" "36 24 116"
+	"origin" "52 24 116"
 	editor
 	{
 		"color" "220 30 220"

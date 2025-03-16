@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "6"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,31 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "8"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "220"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "wall_left_startTrigger0-1"
+	}
+	"origin" "-80 -49.4211 190.445"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -1718,22 +1736,13 @@ entity
 		"OnFullyOpen" "wall_left_door_1SetSpeed50-1"
 		"OnFullyOpen" "wall_left_door_1Close0.1-1"
 		"OnFullyOpen" "wall_left_shakeStartShake0.1-1"
-		"OnFullyOpen" "@ball_launcher_drag_sparksKill0-1"
 		"OnFullyOpen" "wall_left_dustExplode0.5-1"
 		"OnFullyOpen" "wall_left_door_2Close0.1-1"
 		"OnFullyOpen" "wall_left_door_2SetSpeed50-1"
 		"OnFullyOpen" "wall_left_door_3Close0.1-1"
 		"OnFullyOpen" "wall_left_door_3SetSpeed50-1"
-		"OnFullyOpen" "@wall_left_fallingTrigger0-1"
-		"OnFullyOpen" "wall_left_glass_1aBreak0.5-1"
-		"OnFullyOpen" "wall_left_glass_1bBreak0.75-1"
-		"OnFullyOpen" "wall_left_glass_1cBreak0.9-1"
-		"OnFullyOpen" "wall_left_physexplosionExplode0.75-1"
 		"OnFullyOpen" "wall_left_fx_2PlaySound0.25-1"
 		"OnFullyOpen" "wall_left_fx_1Volume00.25-1"
-		"OnFullyOpen" "wall_left_glass_broken_1aEnable0.5-1"
-		"OnFullyOpen" "wall_left_glass_broken_1bEnable0.75-1"
-		"OnFullyOpen" "wall_left_glass_broken_1cEnable0.9-1"
 	}
 	solid
 	{

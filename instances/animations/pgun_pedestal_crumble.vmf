@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "19"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "24"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
 	solid
 	{
 		"id" "36"
@@ -1364,7 +1364,7 @@ entity
 {
 	"id" "37"
 	"classname" "trigger_once"
-	"origin" "0 0 -1.5"
+	"origin" "0 0 1.5"
 	"spawnflags" "4097"
 	"targetname" "player_detect_trigger"
 	connections
@@ -1386,7 +1386,7 @@ entity
 		side
 		{
 			"id" "358"
-			"plane" "(-56 -56 4) (-56 -56 -7) (-56 56 -7)"
+			"plane" "(-56 -56 10) (-56 -56 -7) (-56 56 -7)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -28] 0.25"
@@ -1397,7 +1397,7 @@ entity
 		side
 		{
 			"id" "357"
-			"plane" "(56 56 4) (56 56 -7) (56 -56 -7)"
+			"plane" "(56 56 10) (56 56 -7) (56 -56 -7)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -28] 0.25"
@@ -1408,7 +1408,7 @@ entity
 		side
 		{
 			"id" "356"
-			"plane" "(56 -56 4) (56 -56 -7) (-56 -56 -7)"
+			"plane" "(56 -56 10) (56 -56 -7) (-56 -56 -7)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -28] 0.25"
@@ -1419,7 +1419,7 @@ entity
 		side
 		{
 			"id" "355"
-			"plane" "(-56 56 4) (-56 56 -7) (56 56 -7)"
+			"plane" "(-56 56 10) (-56 56 -7) (56 56 -7)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -28] 0.25"
@@ -1441,7 +1441,7 @@ entity
 		side
 		{
 			"id" "353"
-			"plane" "(-56 -56 4) (-56 56 4) (56 56 4)"
+			"plane" "(-56 -56 10) (-56 56 10) (56 56 10)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -4232,7 +4232,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "floor_rubble_drop"
@@ -4420,7 +4420,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "robot_drop_05"
@@ -4466,7 +4466,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "robot_drop_04"
@@ -4512,7 +4512,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "robot_drop_02"
@@ -4558,7 +4558,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "robot_drop_01"
@@ -4604,7 +4604,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "robot_drop_03"
@@ -4650,7 +4650,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "robot_drop_08"
@@ -4696,7 +4696,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "robot_drop_07"
@@ -4742,7 +4742,7 @@ entity
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
 	"skin" "1"
-	"solid" "6"
+	"solid" "0"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "robot_drop_06"
@@ -5900,8 +5900,6 @@ entity
 		"OnTrigger" "door_pedistal_removal_lvl2Kill0.05-1"
 		"OnTrigger" "pedistal_sparkKill0.05-1"
 		"OnTrigger" "pedistal_center_lvl2Kill0.05-1"
-		"OnTrigger" "podium_collapse_push_brushEnable0-1"
-		"OnTrigger" "player_clipsEnable0-1"
 		"OnTrigger" "floor_break_soundsPlaySound0-1"
 		"OnTrigger" "pedistal_spark_destroySparkOnce0-1"
 		"OnTrigger" "breakable_floor_dustExplode0-1"
@@ -5923,6 +5921,7 @@ entity
 	connections
 	{
 		"OnProxyRelay" "podium_collapse_remoteTrigger0-1"
+		"OnProxyRelay" "fire_rotating_portalgun_tca01Trigger0-1"
 	}
 	"origin" "115 48 11"
 	editor

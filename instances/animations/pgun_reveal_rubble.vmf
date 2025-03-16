@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "5"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30,21 +30,28 @@ world
 }
 entity
 {
-	"id" "616"
-	"classname" "func_instance_io_proxy"
+	"id" "686"
+	"classname" "logic_auto"
 	"angles" "-0 -90 0"
-	"targetname" "revealdown_proxy"
+	"spawnflags" "1"
 	connections
 	{
-		"OnProxyRelay" "revealdownTrigger0-1"
+		"OnMapSpawn" "robo_gun_reveal_06SetDefaultAnimationgun_reveal_06up_idle0.1-1"
+		"OnMapSpawn" "robo_gun_reveal_05SetDefaultAnimationgun_reveal_05up_idle0.1-1"
+		"OnMapSpawn" "robo_gun_reveal_04SetDefaultAnimationgun_reveal_04up_idle0.1-1"
+		"OnMapSpawn" "robo_gun_reveal_03SetDefaultAnimationgun_reveal_03up_idle0.1-1"
+		"OnMapSpawn" "robo_gun_reveal_02SetDefaultAnimationgun_reveal_02up_idle0.1-1"
+		"OnMapSpawn" "robo_gun_reveal_01SetDefaultAnimationgun_reveal_01up_idle0.1-1"
+		"OnMapSpawn" "robo_gun_reveal_07SetDefaultAnimationgun_reveal_07up_idle0.1-1"
+		"OnMapSpawn" "robo_gun_reveal_07panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
 	}
-	"origin" "-48 16 41"
+	"origin" "-64 2.95782 44.1832"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[2500 9500]"
+		"logicalpos" "[2500 5000]"
 	}
 }
 entity
@@ -628,6 +635,7 @@ entity
 	connections
 	{
 		"OnProxyRelay" "revealupTrigger0-1"
+		"OnProxyRelay" "revealdownTrigger0-1"
 	}
 	"origin" "-48 0 41"
 	editor

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "6"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1065,6 +1065,10 @@ entity
 	"targetname" "@ball_launcher_door"
 	"unlocked_sentence" "0"
 	"wait" "4"
+	connections
+	{
+		"OnFullyOpen" "@ball_launcher_drag_sparksStopSpark0-1"
+	}
 	solid
 	{
 		"id" "36"
@@ -1666,7 +1670,8 @@ entity
 		"OnTrigger" "laser_emitter_wall_doorOpen9-1"
 		"OnTrigger" "@ball_launcher_drag_sparksStartSpark0-1"
 		"OnTrigger" "@ball_launcher_doorOpen0-1"
-		"OnTrigger" "@ball_launcher_doorSetSpeed1000-1"
+		"OnTrigger" "@ball_launcher_doorSetSpeed1001-1"
+		"OnTrigger" "@ball_launcher_drag_sparks1SparkOnce0-1"
 	}
 	"origin" "-56 56 -8"
 	editor
