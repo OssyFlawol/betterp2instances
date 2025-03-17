@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "3"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55,7 +55,7 @@ entity
 	"targetname" "replace_tile_01"
 	connections
 	{
-		"OnTrigger" "panel_toggleSetTextureIndex01.5-1"
+		"OnTrigger" "panel_toggle2SetTextureIndex01.5-1"
 		"OnTrigger" "replace_tile_arm2SetAnimationreplace_tile_010-1"
 	}
 	"origin" "8 8 8"
@@ -75,8 +75,6 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "panel_replaceSetParentAttachmentMaintainOffsetpanel_attach0-1"
-		"OnMapSpawn" "panel_toggleSetTextureIndex10-1"
 		"OnMapSpawn" "panel_toggle2SetTextureIndex10-1"
 		"OnMapSpawn" "panel_replace2SetParentAttachmentMaintainOffsetpanel_attach0-1"
 	}
@@ -94,8 +92,8 @@ entity
 	"id" "6"
 	"classname" "env_texturetoggle"
 	"angles" "0 0 0"
-	"target" "panel_replace"
-	"targetname" "panel_toggle"
+	"target" "panel_replace2"
+	"targetname" "panel_toggle2"
 	"origin" "8 8 40"
 	editor
 	{
