@@ -32,3 +32,4 @@ Yes! While we don't require credit if you are a standard Portal 2 Workshop level
 
 - Ossila Flawol
 - Avery
+- Critfish
