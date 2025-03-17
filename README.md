@@ -10,4 +10,4 @@ Credit is not required - only redistribution credit is required.
 
 CREDITS:
 - Ossila Flawol
-- !Λvery!
+- Avery
