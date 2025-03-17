@@ -2,7 +2,7 @@
 
 ![BetterP2Instances Logo](https://github.com/OssyFlawol/betterp2instances/blob/main/better_p2_instances-01.png?raw=true)
 
-Instances that Valve should have probably provided in their sdk_content release in Portal 2. 
+> Instances that Valve should have probably provided in their sdk_content release in Portal 2. 
 
 ## What is betterp2instances?
 
