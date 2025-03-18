@@ -1,0 +1,249 @@
+"versioninfo" 
+{
+    "editorversion" "400"
+    "editorbuild" "10287"
+    "mapversion" "1"
+    "formatversion" "100"
+    "prefab" "0"
+}
+"visgroups" 
+{
+}
+"viewsettings" 
+{
+    "bSnapToGrid" "1"
+    "bShowGrid" "1"
+    "bShowLogicalGrid" "1"
+    "nGridSpacing" "8"
+    "bShow3DGrid" "0"
+    "nInstanceVisibility" "2"
+    "views" 
+    {
+        "v0" 
+        {
+            "3d" "1"
+            "position" "(-46.6325 -16.6965 -8.33554)"
+            "angle" "[1.20002 10.4 0]"
+        }
+        "v1" 
+        {
+            "3d" "0"
+            "position" "(-25.3221 15.2145 65536)"
+            "zoom" "5.54653"
+        }
+        "v2" 
+        {
+            "3d" "0"
+            "position" "(0 0 0)"
+            "zoom" "4.62211"
+        }
+        "v3" 
+        {
+            "3d" "0"
+            "position" "(1.85701 -65536 -4.94764)"
+            "zoom" "49.4534"
+        }
+    }
+}
+"world" 
+{
+    "id" "1"
+    "mapversion" "1"
+    "classname" "worldspawn"
+    "skyname" "sky_black_nofog"
+    "maxpropscreenwidth" "-1"
+    "detailvbsp" "detail.vbsp"
+    "detailmaterial" "detail/detailsprites"
+    "maxblobcount" "250"
+    "maxprojectedtextures" "8"
+}
+"entity" 
+{
+    "id" "2"
+    "classname" "func_illusionary"
+    "disablereceiveshadows" "1"
+    "disableshadowdepth" "0"
+    "origin" "-0 0 -4"
+    "renderamt" "255"
+    "rendercolor" "255 255 255"
+    "renderfx" "0"
+    "rendermode" "10"
+    "shadowdepthnocache" "0"
+    "solid" "6"
+    "vrad_brush_cast_shadows" "0"
+    "solid" 
+    {
+        "id" "3"
+        "side" 
+        {
+            "id" "1"
+            "plane" "(-8 -64 -3.535) (-8 -64 -4.535) (-8 64 -4.51501)"
+            "point_data" 
+            {
+                "numpts" "4"
+                "point" "0 -8 -64 -3.535"
+                "point" "1 -8 -64 -4.535"
+                "point" "2 -8 64 -4.51501"
+                "point" "3 -8 64 -3.51501"
+            }
+            "material" "TOOLS/TOOLSNODRAW"
+            "uaxis" "[0 -1 0 -23.9595] 0.25"
+            "vaxis" "[0 0 -1 17.5] 0.25"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        "side" 
+        {
+            "id" "2"
+            "plane" "(8 64 -3.60501) (8 64 -4.60501) (8 -64 -4.625)"
+            "point_data" 
+            {
+                "numpts" "4"
+                "point" "0 8 64 -3.60501"
+                "point" "1 8 64 -4.60501"
+                "point" "2 8 -64 -4.625"
+                "point" "3 8 -64 -3.625"
+            }
+            "material" "TOOLS/TOOLSNODRAW"
+            "uaxis" "[0 1 0 23.9595] 0.25"
+            "vaxis" "[0 0 -1 17.5] 0.25"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        "side" 
+        {
+            "id" "3"
+            "plane" "(8 -64 -3.625) (8 -64 -4.625) (-8 -64 -4.535)"
+            "point_data" 
+            {
+                "numpts" "4"
+                "point" "0 8 -64 -3.625"
+                "point" "1 8 -64 -4.625"
+                "point" "2 -8 -64 -4.535"
+                "point" "3 -8 -64 -3.535"
+            }
+            "material" "TOOLS/TOOLSNODRAW"
+            "uaxis" "[1 0 0 20] 0.25"
+            "vaxis" "[0 0 -1 17.5] 0.25"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        "side" 
+        {
+            "id" "4"
+            "plane" "(-8 64 -3.51501) (-8 64 -4.51501) (8 64 -4.60501)"
+            "point_data" 
+            {
+                "numpts" "4"
+                "point" "0 -8 64 -3.51501"
+                "point" "1 -8 64 -4.51501"
+                "point" "2 8 64 -4.60501"
+                "point" "3 8 64 -3.60501"
+            }
+            "material" "TOOLS/TOOLSNODRAW"
+            "uaxis" "[-1 0 0 -20] 0.25"
+            "vaxis" "[0 0 -1 17.5] 0.25"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        "side" 
+        {
+            "id" "5"
+            "plane" "(-8 64 -4.51599) (-8 -64 -4.53601) (8 -64 -4.625)"
+            "point_data" 
+            {
+                "numpts" "4"
+                "point" "0 -8 64 -4.51599"
+                "point" "1 -8 -64 -4.53601"
+                "point" "2 8 -64 -4.625"
+                "point" "3 8 64 -4.60501"
+            }
+            "material" "LIGHTS/WHITE008"
+            "uaxis" "[-1 0 0.0057 -96.0286] 0.2"
+            "vaxis" "[0 1 0 67.95] 0.2"
+            "rotation" "0"
+            "lightmapscale" "8"
+            "smoothing_groups" "0"
+        }
+        "side" 
+        {
+            "id" "6"
+            "plane" "(-8 -64 -3.53601) (-8 64 -3.51599) (8 64 -3.60501)"
+            "point_data" 
+            {
+                "numpts" "4"
+                "point" "0 -8 -64 -3.53601"
+                "point" "1 -8 64 -3.51599"
+                "point" "2 8 64 -3.60501"
+                "point" "3 8 -64 -3.625"
+            }
+            "material" "TOOLS/TOOLSNODRAW"
+            "uaxis" "[1 0 -0.0056 2.84375] 0.25"
+            "vaxis" "[0 -1 0 -23.9595] 0.25"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        "editor" 
+        {
+            "color" "220 30 220"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+        }
+    }
+    "editor" 
+    {
+        "color" "220 30 220"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "logicalpos" "[500 -50072]"
+    }
+}
+"entity" 
+{
+    "id" "7"
+    "classname" "prop_static"
+    "angles" "0 270 0"
+    "disableselfshadowing" "0"
+    "disableshadows" "0"
+    "disablevertexlighting" "0"
+    "disableX360" "0"
+    "fademaxdist" "1200"
+    "fademindist" "1000"
+    "fadescale" "1"
+    "ignorenormals" "0"
+    "lightmapresolutionx" "32"
+    "lightmapresolutiony" "32"
+    "maxcpulevel" "0"
+    "maxgpulevel" "0"
+    "mincpulevel" "0"
+    "mingpulevel" "0"
+    "model" "models/props_office/office_light002.mdl"
+    "renderamt" "255"
+    "rendercolor" "255 255 255"
+    "scale" "1 1 1"
+    "screenspacefade" "0"
+    "skin" "0"
+    "solid" "6"
+    "uniformscale" "1"
+    "origin" "0 0 4.375"
+    "editor" 
+    {
+        "color" "255 255 0"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "logicalpos" "[2500 -42572]"
+    }
+}
+"cameras" 
+{
+    "activecamera" "-1"
+}
+"cordons" 
+{
+    "active" "0"
+}
