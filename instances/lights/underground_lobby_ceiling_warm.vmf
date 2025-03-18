@@ -1,0 +1,165 @@
+"versioninfo" 
+{
+    "editorversion" "400"
+    "editorbuild" "10287"
+    "mapversion" "2"
+    "formatversion" "100"
+    "prefab" "0"
+}
+"visgroups" 
+{
+}
+"viewsettings" 
+{
+    "bSnapToGrid" "1"
+    "bShowGrid" "1"
+    "bShowLogicalGrid" "1"
+    "nGridSpacing" "64"
+    "bShow3DGrid" "0"
+    "nInstanceVisibility" "2"
+    "views" 
+    {
+        "v0" 
+        {
+            "3d" "1"
+            "position" "(-19.9783 -30.3812 -137.37)"
+            "angle" "[14.4 54 0]"
+        }
+        "v1" 
+        {
+            "3d" "0"
+            "position" "(86.0573 -44.7292 65536)"
+            "zoom" "0.895795"
+        }
+        "v2" 
+        {
+            "3d" "0"
+            "position" "(0 7.48625 11.5883)"
+            "zoom" "2.67483"
+        }
+        "v3" 
+        {
+            "3d" "0"
+            "position" "(50.2759 0 -92.4254)"
+            "zoom" "0.895795"
+        }
+    }
+}
+"world" 
+{
+    "id" "1"
+    "mapversion" "2"
+    "classname" "worldspawn"
+    "detailmaterial" "detail/detailsprites"
+    "detailvbsp" "detail.vbsp"
+    "maxblobcount" "250"
+    "maxpropscreenwidth" "-1"
+    "skyname" "sky_black_nofog"
+    "maxprojectedtextures" "8"
+}
+"entity" 
+{
+    "id" "20"
+    "classname" "prop_static"
+    "angles" "0 0 0"
+    "disableselfshadowing" "0"
+    "disableshadows" "0"
+    "disablevertexlighting" "0"
+    "disableX360" "0"
+    "fademaxdist" "0"
+    "fademindist" "-1"
+    "fadescale" "1"
+    "ignorenormals" "0"
+    "maxcpulevel" "0"
+    "maxgpulevel" "0"
+    "mincpulevel" "0"
+    "mingpulevel" "0"
+    "model" "models/props_underground/light_ceiling_lobby.mdl"
+    "renderamt" "255"
+    "rendercolor" "255 255 255"
+    "scale" "1 1 1"
+    "screenspacefade" "0"
+    "skin" "0"
+    "solid" "6"
+    "uniformscale" "1"
+    "origin" "0 0 0"
+    "editor" 
+    {
+        "color" "255 255 0"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "logicalpos" "[11500 8500]"
+    }
+}
+"entity" 
+{
+    "id" "24"
+    "classname" "light_spot"
+    "_castentityshadow" "1"
+    "_cone" "80"
+    "_constant_attn" "0"
+    "_distance" "0"
+    "_exponent" "1"
+    "_fifty_percent_distance" "266"
+    "_hardfalloff" "0"
+    "_inner_cone" "1"
+    "_light" "238 221 183 100"
+    "_lightHDR" "-1 -1 -1 1"
+    "_lightscaleHDR" "1"
+    "_linear_attn" "0"
+    "_nocubemapsprite" "1"
+    "_quadratic_attn" "1"
+    "_shadoworiginoffset" "0 0 0"
+    "_zero_percent_distance" "542"
+    "angles" "-90 0 0"
+    "fadetickinterval" "0.1"
+    "pitch" "-90"
+    "spawnflags" "0"
+    "style" "0"
+    "origin" "0 0 -185"
+    "editor" 
+    {
+        "color" "255 255 0"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "logicalpos" "[3000 -8268]"
+    }
+}
+"entity" 
+{
+    "id" "31"
+    "classname" "light"
+    "_castentityshadow" "1"
+    "_constant_attn" "0"
+    "_distance" "0"
+    "_fifty_percent_distance" "0"
+    "_hardfalloff" "0"
+    "_light" "238 221 183 20"
+    "_lightHDR" "-1 -1 -1 1"
+    "_lightscaleHDR" "1"
+    "_linear_attn" "0"
+    "_nocubemapsprite" "1"
+    "_quadratic_attn" "1"
+    "_shadoworiginoffset" "0 0 0"
+    "_zero_percent_distance" "0"
+    "angles" "0 0 0"
+    "fadetickinterval" "0.1"
+    "spawnflags" "0"
+    "style" "0"
+    "origin" "0 0 -141"
+    "editor" 
+    {
+        "color" "255 255 0"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "logicalpos" "[3000 6500]"
+    }
+}
+"cameras" 
+{
+    "activecamera" "-1"
+}
+"cordons" 
+{
+    "active" "0"
+}
