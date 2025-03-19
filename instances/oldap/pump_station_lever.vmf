@@ -39,10 +39,7 @@ entity
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"comments" "repulsion = 0 165 255
-propulsion = 255 128 0
-conversion = 240 240 240
-adhesion = AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+		"comments" "blue 0 165 255 orange 255 128 0 white 240 240 240"
 		"logicalpos" "[0 0]"
 	}
 }
