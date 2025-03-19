@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "4"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,19 +14,56 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "9"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "153"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"MaxDelay" "2"
+	"spawnflags" "64"
+	"targetname" "collapsing_rubble_spark_1"
+	"TrailLength" "1"
+	"origin" "28.1853 11.9998 239.999"
+	editor
+	{
+		"color" "200 200 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "156"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "5"
+	"spawnflags" "0"
+	"targetname" "collapsing_rubble_spark_2"
+	"TrailLength" "2"
+	"origin" "28.1853 -36.0002 239.999"
+	editor
+	{
+		"color" "200 200 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
 }
 entity
 {
@@ -252,6 +289,9 @@ entity
 		"OnTrigger" "flickerlights_for_flopintoplace02Trigger0-1"
 		"OnTrigger" "flickerlights_for_flopintoplace03Trigger0-1"
 		"OnTrigger" "flickerlights_for_flopintoplace04Trigger0-1"
+		"OnTrigger" "collapsing_rubble_spark_2SparkOnce0-1"
+		"OnTrigger" "collapsing_rubble_spark_1SparkOnce0-1"
+		"OnTrigger" "robo_flopintoplace_04panelEnable2-1"
 	}
 	"origin" "-40 32.465 183.9"
 	editor
@@ -944,7 +984,7 @@ entity
 	"rendermode" "0"
 	"solid" "6"
 	"solidbsp" "0"
-	"Solidity" "1"
+	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
 	"targetname" "robo_flopintoplace_04panel"
