@@ -1,0 +1,340 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "0 81 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_sabotage/potato02.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 3 31.75"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9000 -7768]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_office/metal_desk_1.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 -0.25"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[10000 15500]"
+	}
+}
+entity
+{
+	"id" "71"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "10"
+		side
+		{
+			"id" "36"
+			"plane" "(28.0195 -2.0625 32.5) (28.5703 -2.89844 32.5) (28.5684 -2.89453 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[0 1 0 -96] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(18.6377 -9.52393 32.5) (28.5723 -2.90234 32.5) (28.0213 -2.06348 32.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 8] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(28.0234 -2.0625 78.5) (28.5703 -2.89844 78.5) (18.6365 -9.51953 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[1 0 0 -72] 0.25"
+			"vaxis" "[0 -1 0 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(28.5719 -2.89551 78.5) (28.5726 -2.89697 32.5) (18.6359 -9.52002 32.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[1 0 0 -72] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(18.0879 -8.68652 32.5) (28.024 -2.06201 32.5) (28.0225 -2.05908 78.5)"
+			"material" "SIGNAGE/POSTER_SCIENCEFAIR_01"
+			"uaxis" "[-0.832 -0.5547 0 359.109] 0.06"
+			"vaxis" "[0 0 -1 284.328] 0.06"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "31"
+			"plane" "(18.6348 -9.51953 32.5) (18.0876 -8.68701 32.5) (18.082 -8.68359 78.5)"
+			"material" "PLASTER/PLASTER_WALL008A"
+			"uaxis" "[0.5493 -0.8357 0 247.934] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "11"
+		side
+		{
+			"id" "42"
+			"plane" "(18.8867 -8.51855 32.5) (-18.1055 -7.87354 32.5) (-18.1172 -8.87207 32.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 8] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(18.8672 -9.51953 78.5) (-18.1172 -8.87354 78.5) (-18.1055 -7.87305 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[1 0 0 -72] 0.25"
+			"vaxis" "[0 -1 0 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(18.8633 -9.51904 32.5) (-18.125 -8.87305 32.5) (-18.1211 -8.87256 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[1 0 0 -72] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(-18.1055 -7.87305 32.5) (18.8843 -8.51807 32.5) (18.8867 -8.51807 78.5)"
+			"material" "SIGNAGE/POSTER_SCIENCEFAIR_01"
+			"uaxis" "[-1 0.0174 0 505.514] 0.06"
+			"vaxis" "[0 0 -1 284.328] 0.06"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "38"
+			"plane" "(-18.1199 -8.87109 32.5) (-18.1025 -7.87402 32.5) (-18.1027 -7.875 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[0 1 0 -96] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(18.8843 -8.51953 32.5) (18.867 -9.51563 32.5) (18.8669 -9.51563 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[0 1 0 -96] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "12"
+		side
+		{
+			"id" "48"
+			"plane" "(-18 -8.07813 32.5) (-27.3867 -0.6875 32.5) (-28 -1.48438 32.5)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 8] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-18.6094 -8.86328 78.5) (-28 -1.47266 78.5) (-27.3906 -0.679688 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[1 0 0 -72] 0.25"
+			"vaxis" "[0 -1 0 96] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(-18.6094 -8.86719 32.5) (-28 -1.47656 32.5) (-28 -1.47656 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[1 0 0 -72] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(-27.3867 -0.691406 32.5) (-18 -8.07715 32.5) (-18 -8.07422 78.5)"
+			"material" "SIGNAGE/POSTER_SCIENCEFAIR_01"
+			"uaxis" "[-0.7858 0.6185 0 -362.805] 0.06"
+			"vaxis" "[0 0 -1 284.328] 0.06"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-28 -1.48047 32.5) (-27.3864 -0.690918 32.5) (-27.3867 -0.6875 78.5)"
+			"material" "PLASTIC/PLASTICWALL001D"
+			"uaxis" "[0 1 0 -96] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(-18 -8.07813 32.5) (-18.6094 -8.86328 32.5) (-18.6094 -8.86328 78.5)"
+			"material" "SIGNAGE/POSTER_SCIENCEFAIR_01"
+			"uaxis" "[0.6129 0.7902 0 -21.0391] 0.25"
+			"vaxis" "[0 0 -1 -22] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
