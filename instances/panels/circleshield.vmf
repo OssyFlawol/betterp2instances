@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "20"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2854,7 +2854,7 @@ entity
 	"LeadTarget" "No"
 	"maxRange" "0"
 	"minRange" "0"
-	"origin" "0 -0 112"
+	"origin" "0 0 112"
 	"parentname" "shield_1_pointer_2"
 	"persistence" "1"
 	"persistence2" "0"
@@ -2881,7 +2881,7 @@ entity
 		{
 			"id" "740"
 			"plane" "(-112 -8 105.717) (-112 8 105.717) (-112 8 121.719)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2892,7 +2892,7 @@ entity
 		{
 			"id" "739"
 			"plane" "(0 8 105.72) (-112 8 105.72) (-112 -8 105.72)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2903,7 +2903,7 @@ entity
 		{
 			"id" "738"
 			"plane" "(0 -8 121.72) (-112 -8 121.72) (-112 8 121.72)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2914,7 +2914,7 @@ entity
 		{
 			"id" "737"
 			"plane" "(0 -8 105.715) (-112 -8 105.715) (-112 -8 121.72)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2925,7 +2925,7 @@ entity
 		{
 			"id" "736"
 			"plane" "(-112 8 121.719) (-112 8 105.719) (0 8 105.719)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -2936,7 +2936,7 @@ entity
 		{
 			"id" "735"
 			"plane" "(0 8 105.717) (0 -8 105.717) (0 -8 121.719)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3492,7 +3492,7 @@ entity
 		{
 			"id" "770"
 			"plane" "(0 -8 137.719) (0 -8 121.719) (-48 -8 121.719)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3503,7 +3503,7 @@ entity
 		{
 			"id" "769"
 			"plane" "(-48 8 137.719) (-48 8 121.719) (0 8 121.719)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3514,7 +3514,7 @@ entity
 		{
 			"id" "768"
 			"plane" "(0 8 137.719) (0 8 121.719) (0 -8 121.719)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3525,7 +3525,7 @@ entity
 		{
 			"id" "767"
 			"plane" "(-48 -8 137.719) (-48 -8 121.719) (-48 8 121.719)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3536,7 +3536,7 @@ entity
 		{
 			"id" "766"
 			"plane" "(0 8 121.72) (-48 8 121.72) (-48 -8 121.72)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3547,7 +3547,7 @@ entity
 		{
 			"id" "765"
 			"plane" "(0 -8 137.72) (-48 -8 137.72) (-48 8 137.72)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
