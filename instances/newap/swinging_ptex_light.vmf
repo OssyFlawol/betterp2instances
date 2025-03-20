@@ -1,0 +1,339 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "87"
+	"classname" "func_instance_io_proxy"
+	"spawnflags" "0"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "start_sequenceTrigger0-1"
+		"OnProxyRelay" "entry_canyon_flashlightTurnOn0-1"
+	}
+	"origin" "28 -4 -28"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "100"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "start_sequence"
+	connections
+	{
+		"OnTrigger" "lamp_impactExplode0-1"
+		"OnTrigger" "entry_canyon_flashlightTurnOn0-1"
+	}
+	"origin" "28 -4 -12"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "keyframe_rope"
+	"angles" "0 0 0"
+	"Barbed" "0"
+	"Breakable" "0"
+	"Collide" "0"
+	"Dangling" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"MoveSpeed" "64"
+	"parentname" "lamp_physbox"
+	"positioninterpolator" "2"
+	"RopeMaterial" "cable/cable.vmt"
+	"Slack" "25"
+	"spawnflags" "0"
+	"Subdiv" "2"
+	"targetname" "lamp_rope02"
+	"TextureScale" "1"
+	"Type" "0"
+	"Width" "2"
+	"origin" "0.0153718 0 -20.0292"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -8768]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "func_physbox"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"explodemagnitude" "0"
+	"ExplodeRadius" "0"
+	"ExploitableByPlayer" "0"
+	"explosion" "0"
+	"forcetoenablemotion" "0"
+	"gibdir" "0 0 0"
+	"health" "0"
+	"massScale" "4"
+	"material" "0"
+	"nodamageforces" "0"
+	"notsolid" "0"
+	"origin" "1.02 0 -24.03"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"preferredcarryangles" "0 0 0"
+	"pressuredelay" "0"
+	"propdata" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "524288"
+	"spawnobject" "0"
+	"targetname" "lamp_physbox"
+	solid
+	{
+		"id" "8"
+		side
+		{
+			"id" "1"
+			"plane" "(-6.98463 -8 -20.0292) (-6.98463 -8 -28.0292) (-6.98463 8 -28.0292)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"uaxis" "[0 1 0 -80] 0.25"
+			"vaxis" "[0 0 -1 -144.117] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(9.01537 8 -20.0292) (9.01537 8 -28.0292) (9.01537 -8 -28.0292)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"uaxis" "[0 1 0 -80] 0.25"
+			"vaxis" "[0 0 -1 -144.117] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(9.01537 -8 -20.0292) (9.01537 -8 -28.0292) (-6.98463 -8 -28.0292)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"uaxis" "[1 0 0 -176.061] 0.25"
+			"vaxis" "[0 0 -1 -144.117] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-6.98463 8 -20.0292) (-6.98463 8 -28.0292) (9.01537 8 -28.0292)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"uaxis" "[1 0 0 -176.061] 0.25"
+			"vaxis" "[0 0 -1 -144.117] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-6.98463 8 -28.0292) (-6.98463 -8 -28.0292) (9.01537 -8 -28.0292)"
+			"material" "LIGHTS/WHITE010"
+			"uaxis" "[1 0 0 -48.0615] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-6.98463 -8 -20.0292) (-6.98463 8 -20.0292) (9.01537 8 -20.0292)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"uaxis" "[1 0 0 -176.061] 0.25"
+			"vaxis" "[0 -1 0 80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -5268]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "beam_spotlight"
+	"angles" "90 270 0"
+	"disablereceiveshadows" "0"
+	"HDRColorScale" "0.4"
+	"maxdxlevel" "0"
+	"maxspeed" "100"
+	"mindxlevel" "0"
+	"parentname" "lamp_physbox"
+	"renderamt" "120"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "3"
+	"spotlightlength" "200"
+	"spotlightwidth" "350"
+	"targetname" "swinging_light"
+	"origin" "1.01537 0 -28.0292"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -12768]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "env_projectedtexture"
+	"angles" "74.8841 11.5008 -37.4354"
+	"brightnessscale" "2"
+	"cameraspace" "0"
+	"colortransitiontime" "0.5"
+	"enableshadows" "1"
+	"farz" "1000"
+	"lightcolor" "247 228 170 200"
+	"lightfov" "90.0"
+	"lightonlytarget" "0"
+	"lightworld" "1"
+	"nearz" "200"
+	"parentname" "lamp_physbox"
+	"shadowquality" "1"
+	"simpleprojection" "0"
+	"spawnflags" "2"
+	"style" "6"
+	"targetname" "entry_canyon_flashlight"
+	"texturename" "effects/flashlight003"
+	"origin" "0.0153718 0 -28.6692"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "25"
+	"classname" "env_physexplosion"
+	"angles" "0 0 0"
+	"inner_radius" "0"
+	"magnitude" "1"
+	"radius" "0"
+	"spawnflags" "1"
+	"targetentityname" "lamp_physbox"
+	"targetname" "lamp_impact"
+	"origin" "29.0154 -20 -21.1592"
+	editor
+	{
+		"color" "128 128 128"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 8000]"
+	}
+}
+entity
+{
+	"id" "31"
+	"classname" "move_rope"
+	"angles" "0 0 0"
+	"Barbed" "0"
+	"Breakable" "0"
+	"Collide" "0"
+	"Dangling" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"MoveSpeed" "64"
+	"NextKey" "lamp_rope02"
+	"PositionInterpolator" "2"
+	"RopeMaterial" "cable/cable.vmt"
+	"Slack" "25"
+	"spawnflags" "0"
+	"Subdiv" "2"
+	"targetname" "lamp_rope01"
+	"TextureScale" "1"
+	"Type" "0"
+	"Width" "2"
+	"origin" "0.0153718 0 -0.0291953"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 15500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
