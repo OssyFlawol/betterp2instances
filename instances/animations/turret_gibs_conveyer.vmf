@@ -1,0 +1,3446 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "13"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "13"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "286"
+		side
+		{
+			"id" "163"
+			"plane" "(-104 -2672 96) (-104 -2672 -96) (-104 -2448 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "164"
+			"plane" "(-88 -2448 96) (-88 -2448 -96) (-88 -2672 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "165"
+			"plane" "(-88 -2672 96) (-88 -2672 -96) (-104 -2672 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "166"
+			"plane" "(-104 -2448 96) (-104 -2448 -96) (-88 -2448 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "167"
+			"plane" "(-104 -2448 -96) (-104 -2672 -96) (-88 -2672 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "168"
+			"plane" "(-104 -2672 96) (-104 -2448 96) (-88 -2448 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 122 179"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "493"
+		side
+		{
+			"id" "300"
+			"plane" "(88 -2448 96) (88 -2448 -96) (88 -2672 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "299"
+			"plane" "(88 -2672 96) (88 -2672 -96) (72 -2672 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "298"
+			"plane" "(72 -2448 -96) (88 -2448 -96) (88 -2448 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "297"
+			"plane" "(72 -2672 -96) (88 -2672 -96) (88 -2448 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "296"
+			"plane" "(72 -2448 96) (88 -2448 96) (88 -2672 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "295"
+			"plane" "(72 -2672 96) (72 -2672 -96) (72 -2448 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 248 101"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "494"
+		side
+		{
+			"id" "306"
+			"plane" "(-88 -2464 96) (-88 -2464 -96) (-88 -2448 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "305"
+			"plane" "(72 -2448 96) (72 -2448 -96) (72 -2464 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "304"
+			"plane" "(72 -2464 96) (72 -2464 -96) (-88 -2464 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "303"
+			"plane" "(-88 -2448 96) (-88 -2448 -96) (72 -2448 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "302"
+			"plane" "(-88 -2448 -96) (-88 -2464 -96) (72 -2464 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "301"
+			"plane" "(-88 -2464 96) (-88 -2448 96) (72 -2448 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 154 135"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "495"
+		side
+		{
+			"id" "312"
+			"plane" "(-104 -2672 112) (-104 -2672 96) (-104 -2448 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "311"
+			"plane" "(88 -2448 112) (88 -2448 96) (88 -2672 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "310"
+			"plane" "(88 -2672 112) (88 -2672 96) (-104 -2672 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "309"
+			"plane" "(-104 -2448 112) (-104 -2448 96) (88 -2448 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "308"
+			"plane" "(-104 -2448 96) (-104 -2672 96) (88 -2672 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "307"
+			"plane" "(-104 -2672 112) (-104 -2448 112) (88 -2448 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 236 121"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "496"
+		side
+		{
+			"id" "318"
+			"plane" "(-88 -2672 96) (-88 -2656 96) (72 -2656 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "317"
+			"plane" "(-88 -2656 -96) (-88 -2656 96) (-88 -2672 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "316"
+			"plane" "(72 -2672 -96) (72 -2672 96) (72 -2656 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "315"
+			"plane" "(-88 -2672 -96) (-88 -2672 96) (72 -2672 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "314"
+			"plane" "(72 -2656 -96) (72 -2656 96) (-88 -2656 96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "313"
+			"plane" "(-88 -2656 -96) (-88 -2672 -96) (72 -2672 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 200 181"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "497"
+		side
+		{
+			"id" "324"
+			"plane" "(-104 -2672 -96) (-104 -2672 -112) (-104 -2448 -112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "323"
+			"plane" "(88 -2448 -96) (88 -2448 -112) (88 -2672 -112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "322"
+			"plane" "(88 -2672 -96) (88 -2672 -112) (-104 -2672 -112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "321"
+			"plane" "(-104 -2448 -96) (-104 -2448 -112) (88 -2448 -112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "320"
+			"plane" "(-104 -2448 -112) (-104 -2672 -112) (88 -2672 -112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "319"
+			"plane" "(-104 -2672 -96) (-104 -2448 -96) (88 -2448 -96)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 170 107"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "29806"
+	"classname" "trigger_once"
+	"filtername" "conveyor_gib_filter"
+	"origin" "-28.49 -1952.7 5.4"
+	"spawnflags" "64"
+	"StartDisabled" "0"
+	"targetname" "gib_conveyor_1_medium_gib_2_trigger"
+	connections
+	{
+		"OnStartTouch" "gib_conveyor_1_medium_gib_2SetParent!activator0-1"
+		"OnStartTouch" "gib_conveyor_1_medium_gib_2_conveyor_filterKill0-1"
+	}
+	solid
+	{
+		"id" "29807"
+		side
+		{
+			"id" "474"
+			"plane" "(-18.9987 -1946.18 33) (-18.9987 -1946.18 -22.1914) (-18.9987 -1959.18 -22.1914)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -26.9375] 0.25"
+			"vaxis" "[0 0 -1 -17.2031] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "473"
+			"plane" "(-19 -1959.19 33) (-19 -1959.19 -22.1914) (-37.9987 -1959.19 -22.1914)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48.1255] 0.25"
+			"vaxis" "[0 0 -1 -17.2031] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "472"
+			"plane" "(-38 -1946.19 -22.1914) (-19 -1946.19 -22.1914) (-19 -1946.19 32.999)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48.1255] 0.25"
+			"vaxis" "[0 0 -1 -17.2031] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "471"
+			"plane" "(-38 -1959.18 -22.1904) (-19 -1959.18 -22.1904) (-19 -1946.19 -22.1904)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48.1255] 0.25"
+			"vaxis" "[0 -1 0 26.9375] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "470"
+			"plane" "(-38 -1946.18 32.999) (-19 -1946.18 32.999) (-19 -1959.18 32.999)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48.1255] 0.25"
+			"vaxis" "[0 -1 0 26.9375] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "469"
+			"plane" "(-37.9987 -1959.18 33) (-37.9987 -1959.18 -22.1914) (-37.9987 -1946.18 -22.1914)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -26.9375] 0.25"
+			"vaxis" "[0 0 -1 -17.2031] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "29960"
+	"classname" "prop_dynamic"
+	"angles" "0 315 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_sml.mdl"
+	"parentname" "gib_conveyor_1_train"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_small_gib_3"
+	"origin" "-12.0342 -2012.46 -1.28955"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "30488"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_small_gib_3_template_1"
+	"Template01" "gib_conveyor_1_small_gib_3"
+	"Template02" "gib_conveyor_1_small_gib_3_trigger"
+	"Template03" "gib_conveyor_1_small_gib_3_conveyor_filter"
+	"origin" "4 -1948 85.9478"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "267"
+	"classname" "logic_case"
+	"angles" "0 0 0"
+	"targetname" "gib_conveyor_1_gib_case"
+	connections
+	{
+		"OnCase01" "gib_conveyor_1_small_gib_1_template_1ForceSpawn0-1"
+		"OnCase02" "gib_conveyor_1_small_gib_2_template_1ForceSpawn0-1"
+		"OnCase03" "gib_conveyor_1_small_gib_3_template_1ForceSpawn0-1"
+		"OnCase05" "gib_conveyor_1_medium_gib_2_template_1ForceSpawn0-1"
+		"OnCase04" "gib_conveyor_1_medium_gib_1_template_1ForceSpawn0-1"
+		"OnCase06" "gib_conveyor_1_large_gib_1_template_1ForceSpawn0-1"
+	}
+	"origin" "-47.03 -1883.01 29.54"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "269"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_med.mdl"
+	"parentname" "gib_conveyor_1_train"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_medium_gib_2"
+	"origin" "-4.01001 -1996.29 -5"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "274"
+	"classname" "prop_dynamic"
+	"angles" "0 165 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_med.mdl"
+	"parentname" "gib_conveyor_1_train"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_medium_gib_1"
+	"origin" "-4.01001 -1996.29 -5"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "279"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -1796 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 500]"
+	}
+}
+entity
+{
+	"id" "317"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "318"
+		side
+		{
+			"id" "264"
+			"plane" "(56 -2688 -16) (56 192 -16) (60 192 -16)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "263"
+			"plane" "(56 192 -36) (56 192 -16) (56 -2688 -16)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "262"
+			"plane" "(60 -2688 -36) (60 -2688 -16) (60 192 -16)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "261"
+			"plane" "(56 -2688 -36) (56 -2688 -16) (60 -2688 -16)"
+			"material" "CONCRETE/FACTORY_CONCRETE_WALL001A_BOTTOM"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "260"
+			"plane" "(60 192 -36) (60 192 -16) (56 192 -16)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "259"
+			"plane" "(56 192 -36) (56 -2688 -36) (60 -2688 -36)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 4000]"
+	}
+}
+entity
+{
+	"id" "319"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "320"
+		side
+		{
+			"id" "270"
+			"plane" "(64 192 -84) (68 192 -84) (68 192 -64)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "269"
+			"plane" "(68 192 -84) (64 192 -84) (64 -2688 -84)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "268"
+			"plane" "(64 -2688 -64) (64 192 -64) (68 192 -64)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "267"
+			"plane" "(64 -2688 -84) (64 192 -84) (64 192 -64)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "266"
+			"plane" "(68 192 -64) (68 192 -84) (68 -2688 -84)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "265"
+			"plane" "(68 -2688 -84) (64 -2688 -84) (64 -2688 -64)"
+			"material" "CONCRETE/FACTORY_CONCRETE_WALL001A_BOTTOM"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 11000]"
+	}
+}
+entity
+{
+	"id" "321"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "322"
+		side
+		{
+			"id" "276"
+			"plane" "(-60 -2688 -16) (-60 -2688 -36) (-60 192 -36)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "275"
+			"plane" "(-56 192 -16) (-56 192 -36) (-56 -2688 -36)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "274"
+			"plane" "(-56 -2688 -16) (-56 -2688 -36) (-60 -2688 -36)"
+			"material" "CONCRETE/FACTORY_CONCRETE_WALL001A_BOTTOM"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "273"
+			"plane" "(-60 192 -16) (-60 192 -36) (-56 192 -36)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "272"
+			"plane" "(-60 192 -36) (-60 -2688 -36) (-56 -2688 -36)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "271"
+			"plane" "(-60 -2688 -16) (-60 192 -16) (-56 192 -16)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -2268]"
+	}
+}
+entity
+{
+	"id" "323"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "324"
+		side
+		{
+			"id" "282"
+			"plane" "(-68 -2688 -64) (-68 -2688 -84) (-68 192 -84)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "281"
+			"plane" "(-64 192 -64) (-64 192 -84) (-64 -2688 -84)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "280"
+			"plane" "(-64 -2688 -64) (-64 -2688 -84) (-68 -2688 -84)"
+			"material" "CONCRETE/FACTORY_CONCRETE_WALL001A_BOTTOM"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "279"
+			"plane" "(-68 192 -64) (-68 192 -84) (-64 192 -84)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "278"
+			"plane" "(-68 192 -84) (-68 -2688 -84) (-64 -2688 -84)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277"
+			"plane" "(-68 -2688 -64) (-68 192 -64) (-64 192 -64)"
+			"material" "PLASTIC/PLASTICWALL001B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 2000]"
+	}
+}
+entity
+{
+	"id" "325"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_factory/conveyor_belt.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -1920 -36"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -9268]"
+	}
+}
+entity
+{
+	"id" "329"
+	"classname" "path_track"
+	"angles" "0 90 0"
+	"orientationtype" "1"
+	"target" "gib_conveyor_1_path_2"
+	"targetname" "gib_conveyor_1_path_3"
+	connections
+	{
+		"OnPass" "gib_conveyor_1_templateForceSpawn0-1"
+	}
+	"origin" "0 -1920 -8"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 2000]"
+	}
+}
+entity
+{
+	"id" "334"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_factory/conveyor_belt.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -1664 -36"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -6768]"
+	}
+}
+entity
+{
+	"id" "338"
+	"classname" "func_door"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"dmg" "100"
+	"forceclosed" "1"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "0 90 0"
+	"origin" "0 -1668 -8"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "4096"
+	"spawnpos" "0"
+	"speed" "60"
+	"targetname" "gib_conveyor_1_initial_conveyor"
+	"unlocked_sentence" "0"
+	"wait" "-1"
+	connections
+	{
+		"OnFullyOpen" "!selfKill0-1"
+	}
+	solid
+	{
+		"id" "339"
+		side
+		{
+			"id" "288"
+			"plane" "(-56 -1988 -6) (-56 -1988 -8) (-56 188 -8)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "287"
+			"plane" "(56 188 -6) (56 188 -8) (56 -1988 -8)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "286"
+			"plane" "(56 -1988 -6) (56 -1988 -8) (-56 -1988 -8)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "285"
+			"plane" "(-56 188 -6) (-56 188 -8) (56 188 -8)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "284"
+			"plane" "(-56 188 -8) (-56 -1988 -8) (56 -1988 -8)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "283"
+			"plane" "(-56 -1988 -6) (-56 188 -6) (56 188 -6)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "345"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -1924 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 10500]"
+	}
+}
+entity
+{
+	"id" "350"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_lrg.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-5 -1749 -6.8501"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 13000]"
+	}
+}
+entity
+{
+	"id" "355"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -1668 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 10000]"
+	}
+}
+entity
+{
+	"id" "360"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -1540 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 7500]"
+	}
+}
+entity
+{
+	"id" "365"
+	"classname" "prop_dynamic"
+	"angles" "0 315 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_sml.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-3 -1521 -6.8501"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 12500]"
+	}
+}
+entity
+{
+	"id" "370"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -1284 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 9000]"
+	}
+}
+entity
+{
+	"id" "375"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -1412 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 6500]"
+	}
+}
+entity
+{
+	"id" "380"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_lrg.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-14 -1271 -6.8501"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 13500]"
+	}
+}
+entity
+{
+	"id" "385"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -1156 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 8500]"
+	}
+}
+entity
+{
+	"id" "390"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -1028 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 6000]"
+	}
+}
+entity
+{
+	"id" "395"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "gib_conveyor_1_model_lightorigin"
+	"origin" "1.19995 -1108.85 2.60986"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 15000]"
+	}
+}
+entity
+{
+	"id" "398"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "gib_conveyor_1_start_rlTrigger0-1"
+		"OnMapSpawn" "gib_conveyor_1_initial_conveyorOpen0-1"
+	}
+	"origin" "20.01 -1143.14 6"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 8000]"
+	}
+}
+entity
+{
+	"id" "400"
+	"classname" "prop_dynamic"
+	"angles" "0 15 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_sml.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-19 -1041 -6.8501"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 14000]"
+	}
+}
+entity
+{
+	"id" "405"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -900 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 9500]"
+	}
+}
+entity
+{
+	"id" "410"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -772 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -768]"
+	}
+}
+entity
+{
+	"id" "415"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -644 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 1000]"
+	}
+}
+entity
+{
+	"id" "420"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -516 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 7000]"
+	}
+}
+entity
+{
+	"id" "425"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -388 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 11000]"
+	}
+}
+entity
+{
+	"id" "430"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -260 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 5500]"
+	}
+}
+entity
+{
+	"id" "435"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -132 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 3500]"
+	}
+}
+entity
+{
+	"id" "440"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 -4 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 5000]"
+	}
+}
+entity
+{
+	"id" "445"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "0 124 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 1500]"
+	}
+}
+entity
+{
+	"id" "450"
+	"classname" "path_track"
+	"angles" "0 90 0"
+	"orientationtype" "1"
+	"target" "gib_conveyor_1_path_1"
+	"targetname" "gib_conveyor_1_path_2"
+	connections
+	{
+		"OnPass" "!activatorFireUser10-1"
+	}
+	"origin" "0 192 -8"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 11500]"
+	}
+}
+entity
+{
+	"id" "455"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_lrg.mdl"
+	"parentname" "gib_conveyor_1_initial_conveyor"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-2 -704 -6.8501"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 14500]"
+	}
+}
+entity
+{
+	"id" "460"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_factory/conveyor_belt_module.mdl"
+	"parentname" "gib_conveyor_1_train"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_model"
+	"origin" "0 -2560 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 4000]"
+	}
+}
+entity
+{
+	"id" "465"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_template"
+	"Template01" "gib_conveyor_1_train"
+	"Template02" "gib_conveyor_1_model"
+	"origin" "0 -2560 25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 0]"
+	}
+}
+entity
+{
+	"id" "483"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "gib_conveyor_1_cleanup_rl"
+	connections
+	{
+		"OnTrigger" "gib_conveyor_1_*Kill0-1"
+	}
+	"origin" "63 -2538.88 38.1299"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 12000]"
+	}
+}
+entity
+{
+	"id" "485"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_start_rl"
+	connections
+	{
+		"OnTrigger" "gib_conveyor_1_templateForceSpawn0-1"
+		"OnTrigger" "gib_conveyor_1_gib_timer//Enable1.5-1"
+	}
+	"origin" "-26 -2560 43"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 4500]"
+	}
+}
+entity
+{
+	"id" "487"
+	"classname" "func_tracktrain"
+	"bank" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"height" "0"
+	"MoveSoundMaxPitch" "200"
+	"MoveSoundMaxTime" "0"
+	"MoveSoundMinPitch" "60"
+	"MoveSoundMinTime" "0"
+	"orientationtype" "1"
+	"origin" "0 -2560 -2"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "659"
+	"speed" "60"
+	"startspeed" "100"
+	"target" "gib_conveyor_1_path_1"
+	"targetname" "gib_conveyor_1_train"
+	"velocitytype" "0"
+	"volume" "10"
+	"wheels" "0"
+	connections
+	{
+		"OnUser1" "!selfKill0.1-1"
+		"OnUser1" "gib_conveyor_1_modelKill0-1"
+	}
+	solid
+	{
+		"id" "488"
+		side
+		{
+			"id" "294"
+			"plane" "(56 -2624 -2) (-56 -2624 -2) (-56 -2624 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "293"
+			"plane" "(-56 -2496 -2) (56 -2496 -2) (56 -2496 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "292"
+			"plane" "(56 -2496 -2) (-56 -2496 -2) (-56 -2624 -2)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "291"
+			"plane" "(56 -2624 0) (-56 -2624 0) (-56 -2496 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "290"
+			"plane" "(-56 -2624 0) (-56 -2624 -2) (-56 -2496 -2)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "289"
+			"plane" "(56 -2496 0) (56 -2496 -2) (56 -2624 -2)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 2500]"
+	}
+}
+entity
+{
+	"id" "498"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_lrg.mdl"
+	"parentname" "gib_conveyor_1_train"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_large_gib_1"
+	"origin" "-4.01001 -1996.29 -5"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12268]"
+	}
+}
+entity
+{
+	"id" "503"
+	"classname" "path_track"
+	"angles" "0 90 0"
+	"orientationtype" "1"
+	"target" "gib_conveyor_1_path_3"
+	"targetname" "gib_conveyor_1_path_1"
+	connections
+	{
+		"OnPass" "gib_conveyor_1_gib_templateForceSpawn0-1"
+	}
+	"origin" "0 -2048 -8"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 3000]"
+	}
+}
+entity
+{
+	"id" "508"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_factory/conveyor_belt.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -1408 -36"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -8268]"
+	}
+}
+entity
+{
+	"id" "512"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_factory/conveyor_belt.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -1152 -36"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -8768]"
+	}
+}
+entity
+{
+	"id" "516"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_factory/conveyor_belt.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -896 -36"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -6268]"
+	}
+}
+entity
+{
+	"id" "520"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_factory/conveyor_belt.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -640 -36"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -7768]"
+	}
+}
+entity
+{
+	"id" "524"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_factory/conveyor_belt.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -384 -36"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -7268]"
+	}
+}
+entity
+{
+	"id" "528"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_factory/conveyor_belt.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -128 -36"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -9768]"
+	}
+}
+entity
+{
+	"id" "18095"
+	"classname" "trigger_once"
+	"filtername" "conveyor_gib_filter"
+	"origin" "-28.52 -1952.68 5.2"
+	"spawnflags" "64"
+	"StartDisabled" "0"
+	"targetname" "gib_conveyor_1_small_gib_2_trigger"
+	connections
+	{
+		"OnStartTouch" "gib_conveyor_1_small_gib_2SetParent!activator0-1"
+		"OnStartTouch" "gib_conveyor_1_small_gib_2_conveyor_filterKill0-1"
+	}
+	solid
+	{
+		"id" "18096"
+		side
+		{
+			"id" "360"
+			"plane" "(-38.0294 -1959.17 32.7998) (-38.0294 -1946.17 32.7998) (-19.0306 -1946.17 32.7998)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "359"
+			"plane" "(-38.0299 -1946.17 -22.3906) (-38.0299 -1946.17 32.8027) (-38.0299 -1959.17 32.8027)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "358"
+			"plane" "(-19.0299 -1959.17 -22.3906) (-19.0299 -1959.17 32.8027) (-19.0299 -1946.17 32.8027)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "357"
+			"plane" "(-38.0273 -1959.17 -22.3906) (-38.0273 -1959.17 32.8027) (-19.0299 -1959.17 32.8027)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "356"
+			"plane" "(-19.0313 -1946.17 -22.3906) (-19.0313 -1946.17 32.8027) (-38.0313 -1946.17 32.8027)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "355"
+			"plane" "(-38.0292 -1946.17 -22.3896) (-38.0292 -1959.17 -22.3896) (-19.0305 -1959.17 -22.3896)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "18099"
+	"classname" "trigger_once"
+	"filtername" "conveyor_gib_filter"
+	"origin" "-28.52 -1952.68 5.2"
+	"spawnflags" "64"
+	"StartDisabled" "0"
+	"targetname" "gib_conveyor_1_small_gib_1_trigger"
+	connections
+	{
+		"OnStartTouch" "gib_conveyor_1_small_gib_1SetParent!activator0-1"
+		"OnStartTouch" "gib_conveyor_1_small_gib_1_conveyor_filterKill0-1"
+	}
+	solid
+	{
+		"id" "18100"
+		side
+		{
+			"id" "366"
+			"plane" "(-38.0299 -1959.17 32.8008) (-38.0299 -1959.17 -22.3906) (-38.0299 -1946.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "365"
+			"plane" "(-19.0299 -1946.17 32.8008) (-19.0299 -1946.17 -22.3906) (-19.0299 -1959.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "364"
+			"plane" "(-19.0305 -1959.17 32.8008) (-19.0305 -1959.17 -22.3906) (-38.0291 -1959.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "363"
+			"plane" "(-38.0295 -1946.17 32.8008) (-38.0295 -1946.17 -22.3906) (-19.0306 -1946.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "362"
+			"plane" "(-38.0292 -1946.17 -22.3896) (-38.0292 -1959.17 -22.3896) (-19.0305 -1959.17 -22.3896)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "361"
+			"plane" "(-38.0294 -1959.17 32.7998) (-38.0294 -1946.17 32.7998) (-19.0306 -1946.17 32.7998)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "18103"
+	"classname" "trigger_once"
+	"filtername" "conveyor_gib_filter"
+	"origin" "-28.52 -1952.68 5.2"
+	"spawnflags" "64"
+	"StartDisabled" "0"
+	"targetname" "gib_conveyor_1_small_gib_3_trigger"
+	connections
+	{
+		"OnStartTouch" "gib_conveyor_1_small_gib_3SetParent!activator0-1"
+		"OnStartTouch" "gib_conveyor_1_small_gib_3_conveyor_filterKill0-1"
+	}
+	solid
+	{
+		"id" "18104"
+		side
+		{
+			"id" "372"
+			"plane" "(-38.0299 -1959.17 32.8008) (-38.0299 -1959.17 -22.3906) (-38.0299 -1946.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "371"
+			"plane" "(-19.0299 -1946.17 32.8008) (-19.0299 -1946.17 -22.3906) (-19.0299 -1959.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "370"
+			"plane" "(-19.0305 -1959.17 32.8008) (-19.0305 -1959.17 -22.3906) (-38.0291 -1959.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "369"
+			"plane" "(-38.0295 -1946.17 32.8008) (-38.0295 -1946.17 -22.3906) (-19.0306 -1946.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "368"
+			"plane" "(-38.0292 -1946.17 -22.3896) (-38.0292 -1959.17 -22.3896) (-19.0305 -1959.17 -22.3896)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "367"
+			"plane" "(-38.0294 -1959.17 32.7998) (-38.0294 -1946.17 32.7998) (-19.0306 -1946.17 32.7998)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "18107"
+	"classname" "trigger_once"
+	"filtername" "conveyor_gib_filter"
+	"origin" "-28.52 -1952.68 5.2"
+	"spawnflags" "64"
+	"StartDisabled" "0"
+	"targetname" "gib_conveyor_1_medium_gib_1_trigger"
+	connections
+	{
+		"OnStartTouch" "gib_conveyor_1_medium_gib_1SetParent!activator0-1"
+		"OnStartTouch" "gib_conveyor_1_medium_gib_1_conveyor_filterKill0-1"
+	}
+	solid
+	{
+		"id" "18108"
+		side
+		{
+			"id" "378"
+			"plane" "(-38.0299 -1959.17 32.8008) (-38.0299 -1959.17 -22.3906) (-38.0299 -1946.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "377"
+			"plane" "(-19.0299 -1946.17 32.8008) (-19.0299 -1946.17 -22.3906) (-19.0299 -1959.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "376"
+			"plane" "(-19.0305 -1959.17 32.8008) (-19.0305 -1959.17 -22.3906) (-38.0291 -1959.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "375"
+			"plane" "(-38.0295 -1946.17 32.8008) (-38.0295 -1946.17 -22.3906) (-19.0306 -1946.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "374"
+			"plane" "(-38.0292 -1946.17 -22.3896) (-38.0292 -1959.17 -22.3896) (-19.0305 -1959.17 -22.3896)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "373"
+			"plane" "(-38.0294 -1959.17 32.7998) (-38.0294 -1946.17 32.7998) (-19.0306 -1946.17 32.7998)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
+	}
+}
+entity
+{
+	"id" "18111"
+	"classname" "trigger_once"
+	"filtername" "conveyor_gib_filter"
+	"origin" "-28.52 -1952.68 5.2"
+	"spawnflags" "64"
+	"StartDisabled" "0"
+	"targetname" "gib_conveyor_1_large_gib_1_trigger"
+	connections
+	{
+		"OnStartTouch" "gib_conveyor_1_large_gib_1SetParent!activator0-1"
+		"OnStartTouch" "gib_conveyor_1_large_gib_1_conveyor_filterKill0-1"
+	}
+	solid
+	{
+		"id" "18112"
+		side
+		{
+			"id" "384"
+			"plane" "(-38.0299 -1959.17 32.8008) (-38.0299 -1959.17 -22.3906) (-38.0299 -1946.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "383"
+			"plane" "(-19.0299 -1946.17 32.8008) (-19.0299 -1946.17 -22.3906) (-19.0299 -1959.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -27] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "382"
+			"plane" "(-19.0305 -1959.17 32.8008) (-19.0305 -1959.17 -22.3906) (-38.0291 -1959.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "381"
+			"plane" "(-38.0295 -1946.17 32.8008) (-38.0295 -1946.17 -22.3906) (-19.0306 -1946.17 -22.3906)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 46] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "380"
+			"plane" "(-38.0292 -1946.17 -22.3896) (-38.0292 -1959.17 -22.3896) (-19.0305 -1959.17 -22.3896)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "379"
+			"plane" "(-38.0294 -1959.17 32.7998) (-38.0294 -1946.17 32.7998) (-19.0306 -1946.17 32.7998)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 27] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "18115"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "func_tracktrain"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "gib_conveyor_1_medium_gib_2_conveyor_filter"
+	"origin" "-48 -1952 41.7998"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
+	}
+}
+entity
+{
+	"id" "18117"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "func_tracktrain"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "gib_conveyor_1_medium_gib_1_conveyor_filter"
+	"origin" "-48 -1968 41.7998"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "18119"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "func_tracktrain"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "gib_conveyor_1_small_gib_1_conveyor_filter"
+	"origin" "-32 -1968 41.7998"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "18121"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "func_tracktrain"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "gib_conveyor_1_small_gib_2_conveyor_filter"
+	"origin" "-32 -1952 41.7998"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16268]"
+	}
+}
+entity
+{
+	"id" "18123"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "func_tracktrain"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "gib_conveyor_1_large_gib_1_conveyor_filter"
+	"origin" "-16 -1952 41.7998"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11768]"
+	}
+}
+entity
+{
+	"id" "18125"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "func_tracktrain"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "gib_conveyor_1_small_gib_3_conveyor_filter"
+	"origin" "-16 -1968 41.7998"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "18127"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_large_gib_1_template_1"
+	"Template01" "gib_conveyor_1_large_gib_1"
+	"Template02" "gib_conveyor_1_large_gib_1_trigger"
+	"Template03" "gib_conveyor_1_large_gib_1_conveyor_filter"
+	connections
+	{
+		"OnEntitySpawned" "gib_conveyor_1_gib_timer_2Disable0-1"
+		"OnEntitySpawned" "gib_conveyor_1_gib_timer_2Enable3-1"
+	}
+	"origin" "18.97 -1948.17 85.9902"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12768]"
+	}
+}
+entity
+{
+	"id" "18145"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_small_gib_1_template_1"
+	"Template01" "gib_conveyor_1_small_gib_1"
+	"Template02" "gib_conveyor_1_small_gib_1_trigger"
+	"Template03" "gib_conveyor_1_small_gib_1_conveyor_filter"
+	"origin" "34.97 -1948.17 101.99"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "18163"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_small_gib_2_template_1"
+	"Template01" "gib_conveyor_1_small_gib_2"
+	"Template02" "gib_conveyor_1_small_gib_2_trigger"
+	"Template03" "gib_conveyor_1_small_gib_2_conveyor_filter"
+	"origin" "18.97 -1948.17 101.99"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 16000]"
+	}
+}
+entity
+{
+	"id" "18181"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_medium_gib_2_template_1"
+	"Template01" "gib_conveyor_1_medium_gib_2"
+	"Template02" "gib_conveyor_1_medium_gib_2_trigger"
+	"Template03" "gib_conveyor_1_medium_gib_2_conveyor_filter"
+	"origin" "2.96997 -1948.17 101.99"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "18199"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_medium_gib_1_template_1"
+	"Template01" "gib_conveyor_1_medium_gib_1"
+	"Template02" "gib_conveyor_1_medium_gib_1_trigger"
+	"Template03" "gib_conveyor_1_medium_gib_1_conveyor_filter"
+	"origin" "30.97 -1948.17 85.9902"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "18217"
+	"classname" "logic_timer"
+	"angles" "0 0 0"
+	"LowerRandomBound" "3"
+	"targetname" "gib_conveyor_1_gib_timer_2"
+	"UpperRandomBound" "5"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "gib_conveyor_1_gib_casePickRandomShuffle0-1"
+	}
+	"origin" "-47.03 -1888.61 12.8799"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -16268]"
+	}
+}
+entity
+{
+	"id" "28918"
+	"classname" "prop_dynamic"
+	"angles" "0 45 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_sml.mdl"
+	"parentname" "gib_conveyor_1_train"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_small_gib_1"
+	"origin" "12 -1996 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "28923"
+	"classname" "prop_dynamic"
+	"angles" "0 105 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_sml.mdl"
+	"parentname" "gib_conveyor_1_train"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_small_gib_2"
+	"origin" "28 -1996 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "28928"
+	"classname" "prop_dynamic"
+	"angles" "0 315 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightingorigin" "gib_conveyor_1_model_lightorigin"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/npcs/turret/turret_debris_sml.mdl"
+	"parentname" "gib_conveyor_1_train"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "gib_conveyor_1_small_gib_3"
+	"origin" "12 -1996 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-640 -2816 -256)"
+			"maxs" "(256 256 384)"
+		}
+	}
+}
