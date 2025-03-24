@@ -1,0 +1,962 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	group
+	{
+		"id" "2"
+		editor
+		{
+			"color" "127 124 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "prop_static"
+	"angles" "0 270 90"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_gameplay/crusher_piston_bottom.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0.290039 0 0"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 -7268]"
+	}
+}
+entity
+{
+	"id" "33"
+	"classname" "prop_static"
+	"angles" "0 270 90"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_gameplay/crusher_piston_top.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-15.71 0 0"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 -6768]"
+	}
+}
+entity
+{
+	"id" "37"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "38"
+		side
+		{
+			"id" "24"
+			"plane" "(-447.71 -24 24) (-447.71 -24 -24) (-447.71 24 -24)"
+			"material" "METAL/METALBEAM_BTS_001B"
+			"uaxis" "[0 -1 0 -131.263] 0.19"
+			"vaxis" "[0 0 -1 -6.47426] 0.19"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(-303.71 24 24) (-303.71 24 -24) (-303.71 -24 -24)"
+			"material" "METAL/METALBEAM_BTS_001B"
+			"uaxis" "[0 1 0 131.263] 0.19"
+			"vaxis" "[0 0 -1 6.52623] 0.19"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(-303.71 -24 24) (-303.71 -24 -24) (-447.709 -24 -24)"
+			"material" "METAL/METALBEAM_BTS_001B"
+			"uaxis" "[0 0 -1 134.526] 0.19"
+			"vaxis" "[-1 0 0 582.34] 0.19"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(-447.709 24 24) (-447.709 24 -24) (-303.71 24 -24)"
+			"material" "METAL/METALBEAM_BTS_001B"
+			"uaxis" "[0 0 1 -127.526] 0.19"
+			"vaxis" "[-1 0 0 582.34] 0.19"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(-447.709 24 -24) (-447.709 -24 -24) (-303.71 -24 -24)"
+			"material" "METAL/METALBEAM_BTS_001B"
+			"uaxis" "[0 1 0 131.263] 0.19"
+			"vaxis" "[-1 0 0 582.34] 0.19"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(-447.709 -24 24) (-447.709 24 24) (-303.71 24 24)"
+			"material" "METAL/METALBEAM_BTS_001B"
+			"uaxis" "[0 -1 0 -131.263] 0.19"
+			"vaxis" "[-1 0 0 582.34] 0.19"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "127 124 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 10000]"
+	}
+}
+entity
+{
+	"id" "39"
+	"classname" "prop_static"
+	"angles" "45 0 60"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/framework/hanging_arm_01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-369.54 16 38.018"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 14500]"
+	}
+}
+entity
+{
+	"id" "43"
+	"classname" "prop_static"
+	"angles" "45 0 180"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/framework/hanging_arm_02.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-363.71 0 65.496"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 14000]"
+	}
+}
+entity
+{
+	"id" "47"
+	"classname" "prop_static"
+	"angles" "45 0 -60"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/framework/hanging_arm_01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-369.54 -16 38.018"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 13500]"
+	}
+}
+entity
+{
+	"id" "51"
+	"classname" "prop_static"
+	"angles" "43.4431 3.579 122.497"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-589.19 -43 223.418"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 4000]"
+	}
+}
+entity
+{
+	"id" "55"
+	"classname" "prop_static"
+	"angles" "43.4431 3.579 122.497"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-960.21 -66.21 575.487"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 3500]"
+	}
+}
+entity
+{
+	"id" "59"
+	"classname" "prop_static"
+	"angles" "48 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-535.03 0 277.584"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 4500]"
+	}
+}
+entity
+{
+	"id" "63"
+	"classname" "prop_static"
+	"angles" "43.4428 356.421 -122.497"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-589.19 43 223.418"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 6000]"
+	}
+}
+entity
+{
+	"id" "67"
+	"classname" "prop_static"
+	"angles" "48 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-877.62 0 658.07"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 5000]"
+	}
+}
+entity
+{
+	"id" "71"
+	"classname" "prop_static"
+	"angles" "0 90 45"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/truss_1024.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-719.71 0 400"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 6500]"
+	}
+}
+entity
+{
+	"id" "75"
+	"classname" "prop_static"
+	"angles" "43.4428 356.421 -122.497"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-960.21 66.21 575.487"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 5500]"
+	}
+}
+entity
+{
+	"id" "79"
+	"classname" "prop_static"
+	"angles" "0 90 90"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/truss_1024.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1087.71 0 1288"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 8000]"
+	}
+}
+entity
+{
+	"id" "83"
+	"classname" "prop_static"
+	"angles" "-87 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1035.55 0 1558.1"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 9000]"
+	}
+}
+entity
+{
+	"id" "87"
+	"classname" "prop_static"
+	"angles" "-86.9997 299.997 0.0031"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1112.16 43 1558.1"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 10000]"
+	}
+}
+entity
+{
+	"id" "91"
+	"classname" "prop_static"
+	"angles" "-86.9996 59.998 0.0015"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1112.16 -43 1558.1"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 7500]"
+	}
+}
+entity
+{
+	"id" "95"
+	"classname" "prop_static"
+	"angles" "-87 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1008.76 0 1046.8"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 8500]"
+	}
+}
+entity
+{
+	"id" "99"
+	"classname" "prop_static"
+	"angles" "-86.9996 59.998 0.0015"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1125.55 -66.21 1046.8"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 7000]"
+	}
+}
+entity
+{
+	"id" "103"
+	"classname" "prop_static"
+	"angles" "-86.9997 299.997 0.0031"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/metal_truss_16x32_512a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1125.55 66.21 1046.8"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 9500]"
+	}
+}
+entity
+{
+	"id" "107"
+	"classname" "prop_static"
+	"angles" "45 0 180"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/room_transform/arm_64x64_exterior_static.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1062.71 24 764.5"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 12000]"
+	}
+}
+entity
+{
+	"id" "111"
+	"classname" "prop_static"
+	"angles" "45 0 60"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/room_transform/arm_64x64_exterior_static.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1071.32 23.46 771"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 13000]"
+	}
+}
+entity
+{
+	"id" "115"
+	"classname" "prop_static"
+	"angles" "45 0 -60"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/room_transform/arm_64x64_exterior_static.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1103.99 -1.3899 744.87"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 10500]"
+	}
+}
+entity
+{
+	"id" "119"
+	"classname" "prop_static"
+	"angles" "45 0 60"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/room_transform/arm_64x64_exterior_static.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1100.71 -0.540001 741.61"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 12500]"
+	}
+}
+entity
+{
+	"id" "123"
+	"classname" "prop_static"
+	"angles" "45 0 180"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/room_transform/arm_64x64_exterior_static.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1062.71 -24 764.5"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 11500]"
+	}
+}
+entity
+{
+	"id" "127"
+	"classname" "prop_static"
+	"angles" "45 0 -60"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/anim_wp/room_transform/arm_64x64_exterior_static.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1074.6 -25.3899 774.27"
+	editor
+	{
+		"color" "127 124 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 11000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
