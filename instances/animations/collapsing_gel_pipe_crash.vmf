@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "9"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1825,7 +1825,7 @@ entity
 	"radius_grow_time_min" "0.5"
 	"start_radius_max" "0.7"
 	"start_radius_min" "0.5"
-	"targetname" "sprayer_broken_pipe_4"
+	"targetname" "sprayer_broken_pipe_2"
 	"origin" "-306.43 -412 57.278"
 	editor
 	{

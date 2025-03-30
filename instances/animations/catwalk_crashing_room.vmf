@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "5"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,65 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "12"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "359"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "World.a4_finale3_destruction01"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "128"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "crash_sfx"
+	"volstart" "0"
+	"origin" "96 -192 415"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "377"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "start_relay"
+	connections
+	{
+		"OnTrigger" "crash_sfxPlaySound0-1"
+		"OnTrigger" "relay_container_destructionTrigger1.5-1"
+	}
+	"origin" "128 -192 424"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -1768]"
+	}
 }
 entity
 {
@@ -223,7 +275,7 @@ entity
 		"OnTrigger" "crash_model_2Kill9-1"
 		"OnTrigger" "crash_clamp_modelEnable9-1"
 	}
-	"origin" "128 -192 415"
+	"origin" "128 -192 408"
 	editor
 	{
 		"color" "0 100 250"
@@ -314,7 +366,7 @@ entity
 	"targetname" "proxy"
 	connections
 	{
-		"OnProxyRelay" "relay_container_destructionTrigger0-1"
+		"OnProxyRelay" "start_relayTrigger0-1"
 	}
 	"origin" "112 -192 415"
 	editor

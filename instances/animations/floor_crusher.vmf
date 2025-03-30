@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "5"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,33 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "7"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "5199"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "crusher_hide"
+	connections
+	{
+		"OnTrigger" "crusher_cover_doorClose0-1"
+	}
+	"origin" "-112 48 128"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2768]"
+	}
 }
 entity
 {
@@ -1377,7 +1397,6 @@ entity
 		"OnTrigger" "crusherSetAnimationSmash_in0-1"
 		"OnTrigger" "crusher_blockerKill4.5-1"
 		"OnTrigger" "crusherSetAnimationSmash_out3-1"
-		"OnTrigger" "trigger_hide_crusherEnable4.5-1"
 	}
 	"origin" "-112 32 128"
 	editor
@@ -1627,6 +1646,7 @@ entity
 	connections
 	{
 		"OnProxyRelay" "crusher_sequence_start_rlTrigger0-1"
+		"OnProxyRelay" "crusher_hideTrigger0-1"
 	}
 	"origin" "-112 32 152"
 	editor
