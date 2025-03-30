@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "28"
+	"mapversion" "32"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,19 +14,95 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "28"
+	"mapversion" "32"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "1736"
+		side
+		{
+			"id" "745"
+			"plane" "(-46 0 68.0237) (-42 0 68.0237) (-42 -64 68.0237)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "746"
+			"plane" "(-46 -64 -3.97628) (-42 -64 -3.97628) (-42 0 -3.97628)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "747"
+			"plane" "(-46 0 68.0237) (-46 -64 68.0237) (-46 -64 -3.97628)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "748"
+			"plane" "(-42 0 -3.97628) (-42 -64 -3.97628) (-42 -64 68.0237)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "749"
+			"plane" "(-42 0 68.0237) (-46 0 68.0237) (-46 0 -3.97628)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "750"
+			"plane" "(-42 -64 -3.97628) (-46 -64 -3.97628) (-46 -64 68.0237)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 220 161"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "1403"
@@ -257,6 +333,7 @@ entity
 	"model" "models/props_bts/scaffolding_system_05.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
+	"rendermode" "10"
 	"skin" "0"
 	"solid" "6"
 	"targetname" "laser"

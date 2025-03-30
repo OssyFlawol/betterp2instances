@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "6"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "10"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
 }
 entity
 {
@@ -342,7 +342,6 @@ entity
 		"OnTrigger" "trigger_hurtDisable1-1"
 		"OnTrigger" "sound_crusher_openPlaySound0-1"
 		"OnTrigger" "trigger_hurt_leftDisable1-1"
-		"OnTrigger" "math_counterSetValue10-1"
 	}
 	"origin" "-8 -48 -120"
 	editor

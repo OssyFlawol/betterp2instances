@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "13"
+	"mapversion" "15"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "13"
+	"mapversion" "15"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -182,6 +182,7 @@ entity
 	connections
 	{
 		"OnPressed" "bomb_1_button_relayTrigger0-1"
+		"OnPressed" "proxyProxyRelay0-1"
 	}
 	solid
 	{
@@ -283,7 +284,6 @@ entity
 		"OnTrigger" "bomb_1_button_relayDisable0-1"
 		"OnTrigger" "practice_button_standSkin00-1"
 		"OnTrigger" "push_button_baseSkin10-1"
-		"OnTrigger" "proxyProxyRelay0-1"
 		"OnTrigger" "button_reset_timerEnable0-1"
 	}
 	"origin" "24 0 8"
