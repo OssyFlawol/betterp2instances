@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "15"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "15"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -106,10 +106,50 @@ world
 }
 entity
 {
-	"id" "595"
+	"id" "861"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "button_active_rl"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "-8 -16 22"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "867"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "button_inactive_rl"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "-8 -16 6"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "804"
 	"classname" "func_instance_io_proxy"
 	"targetname" "proxy"
-	"origin" "24 0 -24"
+	"origin" "0 -16 -10"
 	editor
 	{
 		"color" "220 30 220"
@@ -120,34 +160,10 @@ entity
 }
 entity
 {
-	"id" "622"
-	"classname" "logic_timer"
-	"angles" "0 0 0"
-	"refiretime" "$timer"
-	"spawnflags" "0"
-	"startdisabled" "1"
-	"targetname" "button_reset_timer"
-	"userandomtime" "0"
-	connections
-	{
-		"OnTimer" "bomb_1_button_reset_relayTrigger0-1"
-		"OnTimer" "button_reset_timerDisable0-1"
-	}
-	"origin" "40 0 24"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 12000]"
-	}
-}
-entity
-{
 	"id" "639"
 	"classname" "func_instance_parms"
 	"parm1" "$timer float"
-	"origin" "40 0 8"
+	"origin" "0 -16 -26"
 	editor
 	{
 		"color" "220 30 220"
@@ -175,14 +191,25 @@ entity
 	"sounds" "0"
 	"spawnflags" "1025"
 	"speed" "5"
-	"targetname" "AutoInstance1-button"
+	"targetname" "button"
 	"unlocked_sentence" "0"
 	"unlocked_sound" "0"
-	"wait" "0"
+	"wait" "$timer"
 	connections
 	{
-		"OnPressed" "bomb_1_button_relayTrigger0-1"
-		"OnPressed" "proxyProxyRelay0-1"
+		"OnIn" "practice_button_push_button_knobOpen0-1"
+		"OnIn" "practice_button_power_greenShowSprite0-1"
+		"OnIn" "practice_button_standSkin00-1"
+		"OnIn" "push_button_baseSkin10-1"
+		"OnIn" "practice_button_power_red_elevatorHideSprite0-1"
+		"OnOut" "practice_button_power_red_elevatorShowSprite0-1"
+		"OnOut" "push_button_baseSkin00-1"
+		"OnOut" "practice_button_standSkin10-1"
+		"OnOut" "practice_button_power_greenHideSprite0-1"
+		"OnOut" "practice_button_push_button_knobClose0-1"
+		"OnIn" "button_active_rlTrigger0-1"
+		"OnIn" "practice_button_elevator_button_soundPlaySound0-1"
+		"OnOut" "button_inactive_rlTrigger0-1"
 	}
 	solid
 	{
@@ -270,57 +297,6 @@ entity
 }
 entity
 {
-	"id" "8"
-	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"spawnflags" "0"
-	"targetname" "bomb_1_button_relay"
-	connections
-	{
-		"OnTrigger" "practice_button_push_button_knobOpen0-1"
-		"OnTrigger" "practice_button_power_red_elevatorToggleSprite0-1"
-		"OnTrigger" "practice_button_power_greenToggleSprite0-1"
-		"OnTrigger" "practice_button_elevator_button_soundPlaySound0-1"
-		"OnTrigger" "bomb_1_button_relayDisable0-1"
-		"OnTrigger" "practice_button_standSkin00-1"
-		"OnTrigger" "push_button_baseSkin10-1"
-		"OnTrigger" "button_reset_timerEnable0-1"
-	}
-	"origin" "24 0 8"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 12000]"
-	}
-}
-entity
-{
-	"id" "10"
-	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"targetname" "bomb_1_button_reset_relay"
-	connections
-	{
-		"OnTrigger" "practice_button_push_button_knobClose0-1"
-		"OnTrigger" "practice_button_power_red_elevatorToggleSprite0.25-1"
-		"OnTrigger" "practice_button_power_greenToggleSprite0.25-1"
-		"OnTrigger" "bomb_1_button_relayEnable0-1"
-		"OnTrigger" "practice_button_standSkin10.25-1"
-		"OnTrigger" "push_button_baseSkin00.25-1"
-	}
-	"origin" "24 0 -8"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 3000]"
-	}
-}
-entity
-{
 	"id" "14"
 	"classname" "ambient_generic"
 	"angles" "0 0 0"
@@ -342,7 +318,7 @@ entity
 	"spinup" "0"
 	"targetname" "practice_button_elevator_button_sound"
 	"volstart" "0"
-	"origin" "0 -16 29.2646"
+	"origin" "-1 -16 22"
 	editor
 	{
 		"color" "220 30 220"
@@ -376,7 +352,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"SetBodyGroup" "0"
-	"skin" "0"
+	"skin" "1"
 	"solid" "6"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -590,25 +566,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -12768]"
-	}
-}
-entity
-{
-	"id" "140"
-	"classname" "logic_auto"
-	"angles" "0 0 0"
-	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "practice_button_standSkin10-1"
-	}
-	"origin" "24 0 24"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3768]"
 	}
 }
 entity
