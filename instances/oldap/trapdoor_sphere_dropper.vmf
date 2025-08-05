@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "17"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,20 +20,20 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
-	"maxblobcount" "250"
 	solid
 	{
 		"id" "427"
 		side
 		{
 			"id" "252"
-			"plane" "(62 -62 8) (-62 -62 8) (-62 62 8)"
+			"plane" "(50 -50 0) (-50 -50 0) (-50 50 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -0.00390625] 0.25"
@@ -44,10 +44,10 @@ world
 		side
 		{
 			"id" "251"
-			"plane" "(62 62 0) (62 62 8) (-62 62 8)"
+			"plane" "(50 50 -2) (50 50 0) (-50 50 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0.00390625] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"vaxis" "[0 0 -1 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -55,10 +55,10 @@ world
 		side
 		{
 			"id" "250"
-			"plane" "(-62 -62 0) (-62 -62 8) (62 -62 8)"
+			"plane" "(-50 -50 -2) (-50 -50 0) (50 -50 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0.00390625] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"vaxis" "[0 0 -1 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -66,10 +66,10 @@ world
 		side
 		{
 			"id" "249"
-			"plane" "(62 -62 0) (62 -62 8) (62 62 8)"
+			"plane" "(50 -50 -2) (50 -50 0) (50 50 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"vaxis" "[0 0 -1 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -77,10 +77,10 @@ world
 		side
 		{
 			"id" "248"
-			"plane" "(-62 62 0) (-62 62 8) (-62 -62 8)"
+			"plane" "(-50 50 -2) (-50 50 0) (-50 -50 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"vaxis" "[0 0 -1 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -88,7 +88,7 @@ world
 		side
 		{
 			"id" "247"
-			"plane" "(62 62 0) (-62 62 0) (-62 -62 0)"
+			"plane" "(50 50 -2) (-50 50 -2) (-50 -50 -2)"
 			"material" "TOOLS/TOOLSBLACK"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
