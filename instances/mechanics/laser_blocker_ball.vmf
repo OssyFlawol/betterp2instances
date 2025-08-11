@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "34"
+	"mapversion" "35"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "34"
+	"mapversion" "35"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -182,6 +182,26 @@ world
 }
 entity
 {
+	"id" "1891"
+	"classname" "logic_relay"
+	"angles" "-0 -90 0"
+	"spawnflags" "0"
+	"targetname" "proxy_relay"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "24 8 8"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 14500]"
+	}
+}
+entity
+{
 	"id" "1833"
 	"classname" "prop_laser_catcher"
 	"angles" "0 0 0"
@@ -220,7 +240,7 @@ entity
 	"filterclass" "prop_weighted_cube"
 	"negated" "0"
 	"targetname" "ball_filter"
-	"origin" "-24 16 8"
+	"origin" "-24 8 8"
 	editor
 	{
 		"color" "0 255 0"
@@ -423,7 +443,7 @@ entity
 	"radius" "748"
 	"spawnflags" "48"
 	"targetname" "sound_power_down"
-	"origin" "0 14 32.024"
+	"origin" "0 8 32.024"
 	editor
 	{
 		"color" "220 30 220"
@@ -438,7 +458,7 @@ entity
 	"classname" "func_instance_io_proxy"
 	"angles" "-0 -90 0"
 	"targetname" "proxy"
-	"origin" "-8 16 8.024"
+	"origin" "-8 8 8.024"
 	editor
 	{
 		"color" "220 30 220"
@@ -459,10 +479,10 @@ entity
 		"OnTrigger" "rot_laser_ball_socketStop0-1"
 		"OnTrigger" "sound_power_downPlaySound0-1"
 		"OnTrigger" "laserTurnOff0-1"
-		"OnTrigger" "proxyProxyRelay0-1"
+		"OnTrigger" "proxy_relayTrigger0-1"
 		"OnTrigger" "rot_laser_ball_socketSetSpeed00-1"
 	}
-	"origin" "8 16 8.024"
+	"origin" "8 8 8.024"
 	editor
 	{
 		"color" "0 100 250"
