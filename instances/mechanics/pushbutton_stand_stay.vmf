@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "17"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "19"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -102,6 +102,26 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "628"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "proxy_relay"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "23 0 -10"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 12000]"
 	}
 }
 entity
@@ -245,7 +265,7 @@ entity
 		"OnTrigger" "bomb_1_button_relayDisable0-1"
 		"OnTrigger" "practice_button_standSkin10-1"
 		"OnTrigger" "push_button_baseSkin10-1"
-		"OnTrigger" "proxyProxyRelay0-1"
+		"OnTrigger" "proxy_relayTrigger0-1"
 	}
 	"origin" "24 0 22"
 	editor
@@ -264,6 +284,9 @@ entity
 	"cspinup" "0"
 	"fadeinsecs" "0"
 	"fadeoutsecs" "0"
+	"haddons_enabled" "-1"
+	"haddons_infrange" "-1"
+	"haddons_mode" "-1"
 	"health" "10"
 	"lfomodpitch" "0"
 	"lfomodvol" "0"
@@ -304,6 +327,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props_bts/push_button_stand.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
 	"pressuredelay" "0"
@@ -334,6 +358,7 @@ entity
 	"angles" "0 0 0"
 	"blockdamage" "0"
 	"disablereceiveshadows" "0"
+	"lip" "0.0"
 	"movedir" "0 90 0"
 	"movedistance" "2"
 	"origin" "0 -12 13.26"
@@ -451,6 +476,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_gameplay/push_button_base.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
 	"pressuredelay" "0"
@@ -551,6 +577,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_gameplay/push_button_knob.mdl"
+	"modelscale" "1.0"
 	"parentname" "practice_button_push_button_knob"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
