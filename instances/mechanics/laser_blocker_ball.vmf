@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "33"
+	"mapversion" "34"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "33"
+	"mapversion" "34"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -192,7 +192,7 @@ entity
 	"disableshadows" "0"
 	"drawinfastreflection" "0"
 	"effects" "0"
-	"model" "models/props/laser_catcher_center.mdl"
+	"model" "models/props_bts/scaffolding_system_05.mdl"
 	"modelscale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
