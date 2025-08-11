@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "32"
+	"mapversion" "33"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,95 +14,19 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "32"
+	"mapversion" "33"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
-	solid
-	{
-		"id" "1736"
-		side
-		{
-			"id" "745"
-			"plane" "(-46 0 68.0237) (-42 0 68.0237) (-42 -64 68.0237)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "746"
-			"plane" "(-46 -64 -3.97628) (-42 -64 -3.97628) (-42 0 -3.97628)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "747"
-			"plane" "(-46 0 68.0237) (-46 -64 68.0237) (-46 -64 -3.97628)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "748"
-			"plane" "(-42 0 -3.97628) (-42 -64 -3.97628) (-42 -64 68.0237)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "749"
-			"plane" "(-42 0 68.0237) (-46 0 68.0237) (-46 0 -3.97628)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "750"
-			"plane" "(-42 -64 -3.97628) (-46 -64 -3.97628) (-46 -64 68.0237)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 220 161"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	solid
 	{
 		"id" "1403"
@@ -258,6 +182,38 @@ world
 }
 entity
 {
+	"id" "1833"
+	"classname" "prop_laser_catcher"
+	"angles" "0 0 0"
+	"body" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"model" "models/props/laser_catcher_center.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"skin" "0"
+	"skintype" "0"
+	"solid" "6"
+	"src_fix_skins" "1"
+	"suppressanimsounds" "0"
+	"origin" "-64 -32 28.5686"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "1671"
 	"classname" "filter_activator_class"
 	"angles" "0 0 0"
@@ -289,6 +245,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/mp_ball.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"physdamagescale" "0.1"
 	"renderamt" "255"
@@ -331,6 +288,7 @@ entity
 	"angles" "0 180 0"
 	"AutoAimEnabled" "1"
 	"model" "models/props_bts/scaffolding_system_05.mdl"
+	"modelscale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"rendermode" "10"
@@ -455,6 +413,9 @@ entity
 	"id" "37"
 	"classname" "ambient_generic"
 	"angles" "-0 -90 0"
+	"haddons_enabled" "-1"
+	"haddons_infrange" "-1"
+	"haddons_mode" "-1"
 	"health" "10"
 	"message" "catapult.powerdown"
 	"pitch" "100"
@@ -533,6 +494,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_bts/pipe5_bracket_octo.mdl"
+	"modelscale" "1.0"
 	"parentname" "rot_laser_ball_socket"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
@@ -578,6 +540,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_bts/pipe5_bracket_octo.mdl"
+	"modelscale" "1.0"
 	"parentname" "rot_laser_ball_socket"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
